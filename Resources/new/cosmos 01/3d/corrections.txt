@@ -1,0 +1,39 @@
+> tour galerie volume au dessus
+la coque en haut en shell
+supprimer les plateformes au niveau des escaliers (un trou pour pouvoir passer)
+
+> labyrinthe_01
+shell
+
+> tunnels_courbes
+shell
+scale 0.15
+
+> salle_piliers
+shell murs
+scale 0.1
+
+> flat_ship
+shell
+
+> habitation_cubique_01
+shell
+scale 0.07
+
+> habitation_cubique_02
+shell
+
+> modern_house
+shell
+scale 0.1
+
+> toy_stack
+shell
+scale 0.1
+
+> labyrinthe_03
+shell
+scale 0.025
+
+> integral_chaos
+scale 0.12

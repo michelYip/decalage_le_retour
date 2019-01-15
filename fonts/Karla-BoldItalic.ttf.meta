@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b01447cc16545e64896360b860625e53
+timeCreated: 1527174640
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Karla
+  fontNames:
+  - Karla
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2d600dcbdc1b07542bcb3ef5f04912b9, type: 3}
+  - {fileID: 12800000, guid: 6ccc5a3ce5c32354ca41596a7bc021c8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

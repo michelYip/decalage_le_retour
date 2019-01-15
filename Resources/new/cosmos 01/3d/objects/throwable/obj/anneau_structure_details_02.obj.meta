@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: b93580f19b1b82648880481af2272bcf
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: anneau_01_bas
+    100002: Anneau_01_bas_paroi
+    100004: anneau_01_haut
+    100006: anneau_01_moyen
+    100008: anneau_face_externe_01
+    100010: anneau_paroi_externe_haut
+    100012: //RootNode
+    100014: Colima_on001
+    100016: interieur_01_pair
+    100018: interieur_02_impair
+    100020: paanneau_paroi_01_haut_externe
+    100022: paroi_01_haut
+    100024: sol_01_externe
+    100026: sol_01_interne
+    100028: sol_01_moyen_bas
+    100030: toit_01_impaire
+    100032: toit_01_paire
+    100034: toit_externe_01
+    400000: anneau_01_bas
+    400002: Anneau_01_bas_paroi
+    400004: anneau_01_haut
+    400006: anneau_01_moyen
+    400008: anneau_face_externe_01
+    400010: anneau_paroi_externe_haut
+    400012: //RootNode
+    400014: Colima_on001
+    400016: interieur_01_pair
+    400018: interieur_02_impair
+    400020: paanneau_paroi_01_haut_externe
+    400022: paroi_01_haut
+    400024: sol_01_externe
+    400026: sol_01_interne
+    400028: sol_01_moyen_bas
+    400030: toit_01_impaire
+    400032: toit_01_paire
+    400034: toit_externe_01
+    2300000: anneau_01_bas
+    2300002: Anneau_01_bas_paroi
+    2300004: anneau_01_haut
+    2300006: anneau_01_moyen
+    2300008: anneau_face_externe_01
+    2300010: anneau_paroi_externe_haut
+    2300012: Colima_on001
+    2300014: interieur_01_pair
+    2300016: interieur_02_impair
+    2300018: paanneau_paroi_01_haut_externe
+    2300020: paroi_01_haut
+    2300022: sol_01_externe
+    2300024: sol_01_interne
+    2300026: sol_01_moyen_bas
+    2300028: toit_01_impaire
+    2300030: toit_01_paire
+    2300032: toit_externe_01
+    3300000: anneau_01_bas
+    3300002: Anneau_01_bas_paroi
+    3300004: anneau_01_haut
+    3300006: anneau_01_moyen
+    3300008: anneau_face_externe_01
+    3300010: anneau_paroi_externe_haut
+    3300012: Colima_on001
+    3300014: interieur_01_pair
+    3300016: interieur_02_impair
+    3300018: paanneau_paroi_01_haut_externe
+    3300020: paroi_01_haut
+    3300022: sol_01_externe
+    3300024: sol_01_interne
+    3300026: sol_01_moyen_bas
+    3300028: toit_01_impaire
+    3300030: toit_01_paire
+    3300032: toit_externe_01
+    4300000: anneau_01_bas
+    4300002: Anneau_01_bas_paroi
+    4300004: anneau_01_haut
+    4300006: anneau_01_moyen
+    4300008: anneau_face_externe_01
+    4300010: anneau_paroi_externe_haut
+    4300012: Colima_on001
+    4300014: interieur_01_pair
+    4300016: interieur_02_impair
+    4300018: paanneau_paroi_01_haut_externe
+    4300020: paroi_01_haut
+    4300022: sol_01_externe
+    4300024: sol_01_interne
+    4300026: sol_01_moyen_bas
+    4300028: toit_01_impaire
+    4300030: toit_01_paire
+    4300032: toit_externe_01
+    6400000: anneau_01_bas
+    6400002: Anneau_01_bas_paroi
+    6400004: anneau_01_haut
+    6400006: anneau_01_moyen
+    6400008: anneau_face_externe_01
+    6400010: anneau_paroi_externe_haut
+    6400012: Colima_on001
+    6400014: interieur_01_pair
+    6400016: interieur_02_impair
+    6400018: paanneau_paroi_01_haut_externe
+    6400020: paroi_01_haut
+    6400022: sol_01_externe
+    6400024: sol_01_interne
+    6400026: sol_01_moyen_bas
+    6400028: toit_01_impaire
+    6400030: toit_01_paire
+    6400032: toit_externe_01
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Anneau_01_bas_paroiMat
+    second: {fileID: 2100000, guid: cf1fe00cbbc78434480a7194874c848f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Colima_on001Mat
+    second: {fileID: 2100000, guid: b65fbb46e612bc9479377e12bc1ab743, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anneau_01_basMat
+    second: {fileID: 2100000, guid: 52a01b58be3b2094fb854160b0a09e3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anneau_01_hautMat
+    second: {fileID: 2100000, guid: ef919c0056ddf2a4fb0fb205af94986d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anneau_01_moyenMat
+    second: {fileID: 2100000, guid: f06578071ab4b464b801f2c2465f0162, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anneau_face_externe_01Mat
+    second: {fileID: 2100000, guid: 6202cbc8888067540b67822b95c6ab0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anneau_paroi_externe_hautMat
+    second: {fileID: 2100000, guid: 9dc19cc2e2b830e4a8ea6274e7652617, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: interieur_01_pairMat
+    second: {fileID: 2100000, guid: 4bfdac782cd0e514fafaee4c28ecb9a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: interieur_02_impairMat
+    second: {fileID: 2100000, guid: 966495d21b7c3ad4fbb34278706ddb1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paanneau_paroi_01_haut_externeMat
+    second: {fileID: 2100000, guid: d7833fb3a9c4b5f42a34cf5e964527c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paroi_01_hautMat
+    second: {fileID: 2100000, guid: 380238b7067b0fd4a8dc620308fcfe1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sol_01_externeMat
+    second: {fileID: 2100000, guid: 6b1326cd37034574882ff0a293cfed31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sol_01_interneMat
+    second: {fileID: 2100000, guid: 66e3d9e9e75c4ba4a9695bb396fe2fa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sol_01_moyen_basMat
+    second: {fileID: 2100000, guid: d4651017dd4d1c044bc6b7cc3db34169, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toit_01_impaireMat
+    second: {fileID: 2100000, guid: 894f347bd9c79fb4d86bcfdcf4343aab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toit_01_paireMat
+    second: {fileID: 2100000, guid: e5fb9574719dbd845aa0a16010930028, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toit_externe_01Mat
+    second: {fileID: 2100000, guid: 35481b2d57892054c8abb3a2060f7edc, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

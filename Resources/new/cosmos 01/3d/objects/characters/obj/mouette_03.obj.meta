@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: eb2666f5147d5234eb5df846e6d36ca2
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: aile_droite_extr_me
+    100002: aile_droite_proche
+    100004: aile_gauche_amorce
+    100006: aile_gauche_extr_me
+    100008: corps
+    100010: //RootNode
+    100012: saumon_aile_droite
+    100014: saumon_aile_gauche
+    400000: aile_droite_extr_me
+    400002: aile_droite_proche
+    400004: aile_gauche_amorce
+    400006: aile_gauche_extr_me
+    400008: corps
+    400010: //RootNode
+    400012: saumon_aile_droite
+    400014: saumon_aile_gauche
+    2300000: aile_droite_extr_me
+    2300002: aile_droite_proche
+    2300004: aile_gauche_amorce
+    2300006: aile_gauche_extr_me
+    2300008: corps
+    2300010: saumon_aile_droite
+    2300012: saumon_aile_gauche
+    3300000: aile_droite_extr_me
+    3300002: aile_droite_proche
+    3300004: aile_gauche_amorce
+    3300006: aile_gauche_extr_me
+    3300008: corps
+    3300010: saumon_aile_droite
+    3300012: saumon_aile_gauche
+    4300000: aile_droite_extr_me
+    4300002: aile_droite_proche
+    4300004: aile_gauche_amorce
+    4300006: aile_gauche_extr_me
+    4300008: corps
+    4300010: saumon_aile_droite
+    4300012: saumon_aile_gauche
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aile_droite_extr_meMat
+    second: {fileID: 2100000, guid: 58f88eb4b1340bc45a298db23a8c7d39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aile_droite_procheMat
+    second: {fileID: 2100000, guid: 58282d9312bbe2942a02d9cf8b397d9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aile_gauche_amorceMat
+    second: {fileID: 2100000, guid: 2fdf04a2721dd134eae35cc6104c1690, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aile_gauche_extr_meMat
+    second: {fileID: 2100000, guid: b3471c1cf28b0a547a5d3f47515599e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: corpsMat
+    second: {fileID: 2100000, guid: 056f2ac5e2ee35544932c18d47c7a481, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saumon_aile_droiteMat
+    second: {fileID: 2100000, guid: 93a02825df1460b499d5eefe7a25bd41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: saumon_aile_gaucheMat
+    second: {fileID: 2100000, guid: acb810bde270dbe48b12489c9c6a38cd, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

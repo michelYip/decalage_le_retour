@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 78a892a1e130b5b4cbe97b01a80df6a6
+timeCreated: 1528965767
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: corps
+    100004: tentacule_01
+    100006: tentacule_02
+    100008: tentacule_03
+    100010: tentacule_04
+    100012: tentacule_05
+    100014: tentacule_06
+    100016: tentacule_07
+    100018: tentacule_08
+    100020: tentacule_09
+    100022: tentacule_10
+    100024: tentacule_11
+    100026: tentacule_12
+    100028: tentacule_13
+    100030: tentacule_14
+    400000: //RootNode
+    400002: corps
+    400004: tentacule_01
+    400006: tentacule_02
+    400008: tentacule_03
+    400010: tentacule_04
+    400012: tentacule_05
+    400014: tentacule_06
+    400016: tentacule_07
+    400018: tentacule_08
+    400020: tentacule_09
+    400022: tentacule_10
+    400024: tentacule_11
+    400026: tentacule_12
+    400028: tentacule_13
+    400030: tentacule_14
+    2300000: corps
+    2300002: tentacule_01
+    2300004: tentacule_02
+    2300006: tentacule_03
+    2300008: tentacule_04
+    2300010: tentacule_05
+    2300012: tentacule_06
+    2300014: tentacule_07
+    2300016: tentacule_08
+    2300018: tentacule_09
+    2300020: tentacule_10
+    2300022: tentacule_11
+    2300024: tentacule_12
+    2300026: tentacule_13
+    2300028: tentacule_14
+    3300000: corps
+    3300002: tentacule_01
+    3300004: tentacule_02
+    3300006: tentacule_03
+    3300008: tentacule_04
+    3300010: tentacule_05
+    3300012: tentacule_06
+    3300014: tentacule_07
+    3300016: tentacule_08
+    3300018: tentacule_09
+    3300020: tentacule_10
+    3300022: tentacule_11
+    3300024: tentacule_12
+    3300026: tentacule_13
+    3300028: tentacule_14
+    4300000: corps
+    4300002: tentacule_01
+    4300004: tentacule_02
+    4300006: tentacule_03
+    4300008: tentacule_04
+    4300010: tentacule_05
+    4300012: tentacule_06
+    4300014: tentacule_07
+    4300016: tentacule_08
+    4300018: tentacule_09
+    4300020: tentacule_10
+    4300022: tentacule_11
+    4300024: tentacule_12
+    4300026: tentacule_13
+    4300028: tentacule_14
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

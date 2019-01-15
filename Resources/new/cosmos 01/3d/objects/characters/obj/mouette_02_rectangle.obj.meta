@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 0c4f953d1640bd74d9d7fc9fbfb04f78
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: aile_droite_extreme
+    100002: aile_droite_extreme_milieu_
+    100004: aile_droite_proche_corps
+    100006: aile_gauche_extreme
+    100008: aile_gauche_extreme_milieu
+    100010: aile_gauche_proche_corps
+    100012: corps_central
+    100014: //RootNode
+    400000: aile_droite_extreme
+    400002: aile_droite_extreme_milieu_
+    400004: aile_droite_proche_corps
+    400006: aile_gauche_extreme
+    400008: aile_gauche_extreme_milieu
+    400010: aile_gauche_proche_corps
+    400012: corps_central
+    400014: //RootNode
+    2300000: aile_droite_extreme
+    2300002: aile_droite_extreme_milieu_
+    2300004: aile_droite_proche_corps
+    2300006: aile_gauche_extreme
+    2300008: aile_gauche_extreme_milieu
+    2300010: aile_gauche_proche_corps
+    2300012: corps_central
+    3300000: aile_droite_extreme
+    3300002: aile_droite_extreme_milieu_
+    3300004: aile_droite_proche_corps
+    3300006: aile_gauche_extreme
+    3300008: aile_gauche_extreme_milieu
+    3300010: aile_gauche_proche_corps
+    3300012: corps_central
+    4300000: aile_droite_extreme
+    4300002: aile_droite_extreme_milieu_
+    4300004: aile_droite_proche_corps
+    4300006: aile_gauche_extreme
+    4300008: aile_gauche_extreme_milieu
+    4300010: aile_gauche_proche_corps
+    4300012: corps_central
+    6400000: aile_droite_extreme
+    6400002: aile_droite_extreme_milieu_
+    6400004: aile_droite_proche_corps
+    6400006: aile_gauche_extreme
+    6400008: aile_gauche_extreme_milieu
+    6400010: aile_gauche_proche_corps
+    6400012: corps_central
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aile_droite_extremeMat
+    second: {fileID: 2100000, guid: 89eb88b30e3f13b4e83979c47c0de5e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aile_droite_extreme_milieu_Mat
+    second: {fileID: 2100000, guid: 1039944903a50b24fa20fd58d42f3f4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aile_droite_proche_corpsMat
+    second: {fileID: 2100000, guid: bc940ab56dbd43d4a8a778a318eee36e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aile_gauche_extremeMat
+    second: {fileID: 2100000, guid: 4ef071fc59ee37c4fa781fd5ab501f9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aile_gauche_extreme_milieuMat
+    second: {fileID: 2100000, guid: dbe17e97058ccde42bd0ee5665bab516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aile_gauche_proche_corpsMat
+    second: {fileID: 2100000, guid: 26be75f04c4699445998987ad7142a9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: corps_centralMat
+    second: {fileID: 2100000, guid: 46ba91f669fe64f4aae5cbe99f7820a4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

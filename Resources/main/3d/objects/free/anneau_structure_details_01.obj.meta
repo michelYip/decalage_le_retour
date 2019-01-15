@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: 04b59d54330322b40ac8c86a63da2545
+timeCreated: 1528969915
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bras_006
+    100004: bras_01_toit
+    100006: bras_01_toit001
+    100008: bras_02_Paroi
+    100010: bras_02_Paroi001
+    100012: bras_02_toit
+    100014: bras_02_toit001
+    100016: bras_03
+    100018: bras_03_toit
+    100020: bras_03_toit001
+    100022: cylindre_002
+    100024: cylindre_01
+    100026: paroi_001
+    100028: paroi_002
+    100030: sol_bras_004
+    100032: sol_bras_005
+    100034: sol_bras_006
+    100036: sol_bras_01
+    100038: sol_bras_02
+    100040: sol_bras_03
+    100042: sol_complet
+    100044: sol_complet001
+    100046: toit_impaire_
+    100048: toit_impaire_001
+    100050: toit_paire_002
+    100052: toit_paire_01
+    100054: Tube001
+    100056: Tube002
+    100058: tube_colonne_centralle
+    100060: tube_colonne_centralle001
+    400000: //RootNode
+    400002: bras_006
+    400004: bras_01_toit
+    400006: bras_01_toit001
+    400008: bras_02_Paroi
+    400010: bras_02_Paroi001
+    400012: bras_02_toit
+    400014: bras_02_toit001
+    400016: bras_03
+    400018: bras_03_toit
+    400020: bras_03_toit001
+    400022: cylindre_002
+    400024: cylindre_01
+    400026: paroi_001
+    400028: paroi_002
+    400030: sol_bras_004
+    400032: sol_bras_005
+    400034: sol_bras_006
+    400036: sol_bras_01
+    400038: sol_bras_02
+    400040: sol_bras_03
+    400042: sol_complet
+    400044: sol_complet001
+    400046: toit_impaire_
+    400048: toit_impaire_001
+    400050: toit_paire_002
+    400052: toit_paire_01
+    400054: Tube001
+    400056: Tube002
+    400058: tube_colonne_centralle
+    400060: tube_colonne_centralle001
+    2300000: bras_006
+    2300002: bras_01_toit
+    2300004: bras_01_toit001
+    2300006: bras_02_Paroi
+    2300008: bras_02_Paroi001
+    2300010: bras_02_toit
+    2300012: bras_02_toit001
+    2300014: bras_03
+    2300016: bras_03_toit
+    2300018: bras_03_toit001
+    2300020: cylindre_002
+    2300022: cylindre_01
+    2300024: paroi_001
+    2300026: paroi_002
+    2300028: sol_bras_004
+    2300030: sol_bras_005
+    2300032: sol_bras_006
+    2300034: sol_bras_01
+    2300036: sol_bras_02
+    2300038: sol_bras_03
+    2300040: sol_complet
+    2300042: sol_complet001
+    2300044: toit_impaire_
+    2300046: toit_impaire_001
+    2300048: toit_paire_002
+    2300050: toit_paire_01
+    2300052: Tube001
+    2300054: Tube002
+    2300056: tube_colonne_centralle
+    2300058: tube_colonne_centralle001
+    3300000: bras_006
+    3300002: bras_01_toit
+    3300004: bras_01_toit001
+    3300006: bras_02_Paroi
+    3300008: bras_02_Paroi001
+    3300010: bras_02_toit
+    3300012: bras_02_toit001
+    3300014: bras_03
+    3300016: bras_03_toit
+    3300018: bras_03_toit001
+    3300020: cylindre_002
+    3300022: cylindre_01
+    3300024: paroi_001
+    3300026: paroi_002
+    3300028: sol_bras_004
+    3300030: sol_bras_005
+    3300032: sol_bras_006
+    3300034: sol_bras_01
+    3300036: sol_bras_02
+    3300038: sol_bras_03
+    3300040: sol_complet
+    3300042: sol_complet001
+    3300044: toit_impaire_
+    3300046: toit_impaire_001
+    3300048: toit_paire_002
+    3300050: toit_paire_01
+    3300052: Tube001
+    3300054: Tube002
+    3300056: tube_colonne_centralle
+    3300058: tube_colonne_centralle001
+    4300000: bras_006
+    4300002: bras_01_toit
+    4300004: bras_01_toit001
+    4300006: bras_02_Paroi
+    4300008: bras_02_Paroi001
+    4300010: bras_02_toit
+    4300012: bras_02_toit001
+    4300014: bras_03
+    4300016: bras_03_toit
+    4300018: bras_03_toit001
+    4300020: cylindre_002
+    4300022: cylindre_01
+    4300024: paroi_001
+    4300026: paroi_002
+    4300028: sol_bras_004
+    4300030: sol_bras_005
+    4300032: sol_bras_006
+    4300034: sol_bras_01
+    4300036: sol_bras_02
+    4300038: sol_bras_03
+    4300040: sol_complet
+    4300042: sol_complet001
+    4300044: toit_impaire_
+    4300046: toit_impaire_001
+    4300048: toit_paire_002
+    4300050: toit_paire_01
+    4300052: Tube001
+    4300054: Tube002
+    4300056: tube_colonne_centralle
+    4300058: tube_colonne_centralle001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

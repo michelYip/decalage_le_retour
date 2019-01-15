@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 0ced089b50b651c49ba0bdcf13694982
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: _tage_03
+    100004: Apex_D_me
+    100006: den_tre_dome_02
+    100008: escalier_01
+    100010: escalier_03
+    100012: escalier_04
+    100014: escalier_2
+    100016: fen_tre_dome_
+    100018: fen_tre_dome_horizontale
+    400000: //RootNode
+    400002: _tage_03
+    400004: Apex_D_me
+    400006: den_tre_dome_02
+    400008: escalier_01
+    400010: escalier_03
+    400012: escalier_04
+    400014: escalier_2
+    400016: fen_tre_dome_
+    400018: fen_tre_dome_horizontale
+    2300000: _tage_03
+    2300002: Apex_D_me
+    2300004: den_tre_dome_02
+    2300006: escalier_01
+    2300008: escalier_03
+    2300010: escalier_04
+    2300012: escalier_2
+    2300014: fen_tre_dome_
+    2300016: fen_tre_dome_horizontale
+    3300000: _tage_03
+    3300002: Apex_D_me
+    3300004: den_tre_dome_02
+    3300006: escalier_01
+    3300008: escalier_03
+    3300010: escalier_04
+    3300012: escalier_2
+    3300014: fen_tre_dome_
+    3300016: fen_tre_dome_horizontale
+    4300000: Apex_D_me
+    4300002: den_tre_dome_02
+    4300004: escalier_01
+    4300006: escalier_03
+    4300008: escalier_04
+    4300010: escalier_2
+    4300012: fen_tre_dome_
+    4300014: fen_tre_dome_horizontale
+    4300016: _tage_03
+    6400000: _tage_03
+    6400002: Apex_D_me
+    6400004: den_tre_dome_02
+    6400006: escalier_01
+    6400008: escalier_03
+    6400010: escalier_04
+    6400012: escalier_2
+    6400014: fen_tre_dome_
+    6400016: fen_tre_dome_horizontale
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Apex_D_meMat
+    second: {fileID: 2100000, guid: 2821b52d000192940b221ef838b94e5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _tage_03Mat
+    second: {fileID: 2100000, guid: d1342243ce7e6dd44aee18bb54494e4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: den_tre_dome_02Mat
+    second: {fileID: 2100000, guid: 10460e28b84d41e42bd4e60dc01de602, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: escalier_01Mat
+    second: {fileID: 2100000, guid: b2e5e4d506590a24cb8c6305f9431a6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: escalier_03Mat
+    second: {fileID: 2100000, guid: 76a1c98a33b3f86459602d5ffd691237, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: escalier_04Mat
+    second: {fileID: 2100000, guid: 03d1a940ee5847f48bf969dee79735a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: escalier_2Mat
+    second: {fileID: 2100000, guid: 29284b597a5de0744ab087f13ea87450, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fen_tre_dome_Mat
+    second: {fileID: 2100000, guid: a95aa5787a4161c44a53d9de4aa2e345, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fen_tre_dome_horizontaleMat
+    second: {fileID: 2100000, guid: 8f3a1fa62a527b54e8747f479b700718, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

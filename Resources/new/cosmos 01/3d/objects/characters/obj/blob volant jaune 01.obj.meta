@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 7b6bf654833a88c40a5423633d6e65e4
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: corps
+    100004: tentacule_01
+    100006: tentacule_02
+    100008: tentacule_03
+    100010: tentacule_04
+    100012: tentacule_05
+    100014: tentacule_06
+    100016: tentacule_07
+    100018: tentacule_08
+    100020: tentacule_09
+    100022: tentacule_10
+    100024: tentacule_11
+    100026: tentacule_12
+    100028: tentacule_13
+    100030: tentacule_14
+    400000: //RootNode
+    400002: corps
+    400004: tentacule_01
+    400006: tentacule_02
+    400008: tentacule_03
+    400010: tentacule_04
+    400012: tentacule_05
+    400014: tentacule_06
+    400016: tentacule_07
+    400018: tentacule_08
+    400020: tentacule_09
+    400022: tentacule_10
+    400024: tentacule_11
+    400026: tentacule_12
+    400028: tentacule_13
+    400030: tentacule_14
+    2300000: corps
+    2300002: tentacule_01
+    2300004: tentacule_02
+    2300006: tentacule_03
+    2300008: tentacule_04
+    2300010: tentacule_05
+    2300012: tentacule_06
+    2300014: tentacule_07
+    2300016: tentacule_08
+    2300018: tentacule_09
+    2300020: tentacule_10
+    2300022: tentacule_11
+    2300024: tentacule_12
+    2300026: tentacule_13
+    2300028: tentacule_14
+    3300000: corps
+    3300002: tentacule_01
+    3300004: tentacule_02
+    3300006: tentacule_03
+    3300008: tentacule_04
+    3300010: tentacule_05
+    3300012: tentacule_06
+    3300014: tentacule_07
+    3300016: tentacule_08
+    3300018: tentacule_09
+    3300020: tentacule_10
+    3300022: tentacule_11
+    3300024: tentacule_12
+    3300026: tentacule_13
+    3300028: tentacule_14
+    4300000: corps
+    4300002: tentacule_01
+    4300004: tentacule_02
+    4300006: tentacule_03
+    4300008: tentacule_04
+    4300010: tentacule_05
+    4300012: tentacule_06
+    4300014: tentacule_07
+    4300016: tentacule_08
+    4300018: tentacule_09
+    4300020: tentacule_10
+    4300022: tentacule_11
+    4300024: tentacule_12
+    4300026: tentacule_13
+    4300028: tentacule_14
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: corpsMat
+    second: {fileID: 2100000, guid: 056f2ac5e2ee35544932c18d47c7a481, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tentacule_01Mat
+    second: {fileID: 2100000, guid: 511855d40a886774480b7355e27b5fa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tentacule_02Mat
+    second: {fileID: 2100000, guid: 432148955c6554a429c431bd185c30f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tentacule_03Mat
+    second: {fileID: 2100000, guid: 9b922f843db2b3e468b16946dbf12c8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tentacule_04Mat
+    second: {fileID: 2100000, guid: 6a6ff2d93cea3584e976f14a553fcf2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tentacule_05Mat
+    second: {fileID: 2100000, guid: 0da02c0ae070f754393b51aed4fbc509, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tentacule_06Mat
+    second: {fileID: 2100000, guid: a6311e2bed3140249ad3bc9adfeba3d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tentacule_07Mat
+    second: {fileID: 2100000, guid: 97bfbe5d6bffbb94d97d18384054ca5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tentacule_08Mat
+    second: {fileID: 2100000, guid: 2b8c8f5e3fa1be94da11cb4a2c1187e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tentacule_09Mat
+    second: {fileID: 2100000, guid: af1863122856a704ba8084043fc34e3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tentacule_10Mat
+    second: {fileID: 2100000, guid: 50dd04645317389489b3577412b0bc8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tentacule_11Mat
+    second: {fileID: 2100000, guid: f0f487a35a814334f9378ff7805d620e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tentacule_12Mat
+    second: {fileID: 2100000, guid: a8acdf6ed5d795b46bd8d186d3f5d305, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tentacule_13Mat
+    second: {fileID: 2100000, guid: 7d98146752971ac47a39cb379feca17b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tentacule_14Mat
+    second: {fileID: 2100000, guid: 17e2d7a7ad6244c4980dfe08a2997253, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: 1537e1f2865e16541bb236bc43f055db
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bo_te001
+    100002: Bo_te002
+    100004: Bo_te003
+    100006: Bo_te004
+    100008: Bo_te005
+    100010: Bo_te006
+    100012: Bo_te007
+    100014: Bo_te008
+    100016: Bo_te009
+    100018: Bo_te010
+    100020: Bo_te011
+    100022: Bo_te012
+    100024: Bo_te013
+    100026: Bo_te014
+    100028: Bo_te015
+    100030: Bo_te016
+    100032: Bo_te017
+    100034: Bo_te018
+    100036: Bo_te019
+    100038: Bo_te020
+    100040: Bo_te021
+    100042: Bo_te022
+    100044: Bo_te023
+    100046: Bo_te024
+    100048: Bo_te025
+    100050: Bo_te026
+    100052: Bo_te027
+    100054: Bo_te028
+    100056: Bo_te029
+    100058: Bo_te030
+    100060: Bo_te032
+    100062: Bo_te033
+    100064: Bo_te034
+    100066: Bo_te035
+    100068: Bo_te036
+    100070: Bo_te037
+    100072: Bo_te038
+    100074: Escalier_droit001
+    100076: //RootNode
+    100078: Extrusion001
+    100080: Extrusion002
+    400000: Bo_te001
+    400002: Bo_te002
+    400004: Bo_te003
+    400006: Bo_te004
+    400008: Bo_te005
+    400010: Bo_te006
+    400012: Bo_te007
+    400014: Bo_te008
+    400016: Bo_te009
+    400018: Bo_te010
+    400020: Bo_te011
+    400022: Bo_te012
+    400024: Bo_te013
+    400026: Bo_te014
+    400028: Bo_te015
+    400030: Bo_te016
+    400032: Bo_te017
+    400034: Bo_te018
+    400036: Bo_te019
+    400038: Bo_te020
+    400040: Bo_te021
+    400042: Bo_te022
+    400044: Bo_te023
+    400046: Bo_te024
+    400048: Bo_te025
+    400050: Bo_te026
+    400052: Bo_te027
+    400054: Bo_te028
+    400056: Bo_te029
+    400058: Bo_te030
+    400060: Bo_te032
+    400062: Bo_te033
+    400064: Bo_te034
+    400066: Bo_te035
+    400068: Bo_te036
+    400070: Bo_te037
+    400072: Bo_te038
+    400074: Escalier_droit001
+    400076: //RootNode
+    400078: Extrusion001
+    400080: Extrusion002
+    2300000: Bo_te001
+    2300002: Bo_te002
+    2300004: Bo_te003
+    2300006: Bo_te004
+    2300008: Bo_te005
+    2300010: Bo_te006
+    2300012: Bo_te007
+    2300014: Bo_te008
+    2300016: Bo_te009
+    2300018: Bo_te010
+    2300020: Bo_te011
+    2300022: Bo_te012
+    2300024: Bo_te013
+    2300026: Bo_te014
+    2300028: Bo_te015
+    2300030: Bo_te016
+    2300032: Bo_te017
+    2300034: Bo_te018
+    2300036: Bo_te019
+    2300038: Bo_te020
+    2300040: Bo_te021
+    2300042: Bo_te022
+    2300044: Bo_te023
+    2300046: Bo_te024
+    2300048: Bo_te025
+    2300050: Bo_te026
+    2300052: Bo_te027
+    2300054: Bo_te028
+    2300056: Bo_te029
+    2300058: Bo_te030
+    2300060: Bo_te032
+    2300062: Bo_te033
+    2300064: Bo_te034
+    2300066: Bo_te035
+    2300068: Bo_te036
+    2300070: Bo_te037
+    2300072: Bo_te038
+    2300074: Escalier_droit001
+    2300076: Extrusion001
+    2300078: Extrusion002
+    3300000: Bo_te001
+    3300002: Bo_te002
+    3300004: Bo_te003
+    3300006: Bo_te004
+    3300008: Bo_te005
+    3300010: Bo_te006
+    3300012: Bo_te007
+    3300014: Bo_te008
+    3300016: Bo_te009
+    3300018: Bo_te010
+    3300020: Bo_te011
+    3300022: Bo_te012
+    3300024: Bo_te013
+    3300026: Bo_te014
+    3300028: Bo_te015
+    3300030: Bo_te016
+    3300032: Bo_te017
+    3300034: Bo_te018
+    3300036: Bo_te019
+    3300038: Bo_te020
+    3300040: Bo_te021
+    3300042: Bo_te022
+    3300044: Bo_te023
+    3300046: Bo_te024
+    3300048: Bo_te025
+    3300050: Bo_te026
+    3300052: Bo_te027
+    3300054: Bo_te028
+    3300056: Bo_te029
+    3300058: Bo_te030
+    3300060: Bo_te032
+    3300062: Bo_te033
+    3300064: Bo_te034
+    3300066: Bo_te035
+    3300068: Bo_te036
+    3300070: Bo_te037
+    3300072: Bo_te038
+    3300074: Escalier_droit001
+    3300076: Extrusion001
+    3300078: Extrusion002
+    4300000: Bo_te001
+    4300002: Bo_te002
+    4300004: Bo_te003
+    4300006: Bo_te004
+    4300008: Bo_te005
+    4300010: Bo_te006
+    4300012: Bo_te007
+    4300014: Bo_te008
+    4300016: Bo_te009
+    4300018: Bo_te010
+    4300020: Bo_te011
+    4300022: Bo_te012
+    4300024: Bo_te013
+    4300026: Bo_te014
+    4300028: Bo_te015
+    4300030: Bo_te016
+    4300032: Bo_te017
+    4300034: Bo_te018
+    4300036: Bo_te019
+    4300038: Bo_te020
+    4300040: Bo_te021
+    4300042: Bo_te022
+    4300044: Bo_te023
+    4300046: Bo_te024
+    4300048: Bo_te025
+    4300050: Bo_te026
+    4300052: Bo_te027
+    4300054: Bo_te028
+    4300056: Bo_te029
+    4300058: Bo_te030
+    4300060: Bo_te032
+    4300062: Bo_te033
+    4300064: Bo_te034
+    4300066: Bo_te035
+    4300068: Bo_te036
+    4300070: Bo_te037
+    4300072: Bo_te038
+    4300074: Escalier_droit001
+    4300076: Extrusion001
+    4300078: Extrusion002
+    6400000: Bo_te001
+    6400002: Bo_te002
+    6400004: Bo_te003
+    6400006: Bo_te004
+    6400008: Bo_te005
+    6400010: Bo_te006
+    6400012: Bo_te007
+    6400014: Bo_te008
+    6400016: Bo_te009
+    6400018: Bo_te010
+    6400020: Bo_te011
+    6400022: Bo_te012
+    6400024: Bo_te013
+    6400026: Bo_te014
+    6400028: Bo_te015
+    6400030: Bo_te016
+    6400032: Bo_te017
+    6400034: Bo_te018
+    6400036: Bo_te019
+    6400038: Bo_te020
+    6400040: Bo_te021
+    6400042: Bo_te022
+    6400044: Bo_te023
+    6400046: Bo_te024
+    6400048: Bo_te025
+    6400050: Bo_te026
+    6400052: Bo_te027
+    6400054: Bo_te028
+    6400056: Bo_te029
+    6400058: Bo_te030
+    6400060: Bo_te032
+    6400062: Bo_te033
+    6400064: Bo_te034
+    6400066: Bo_te035
+    6400068: Bo_te036
+    6400070: Bo_te037
+    6400072: Bo_te038
+    6400074: Escalier_droit001
+    6400076: Extrusion001
+    6400078: Extrusion002
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te001Mat
+    second: {fileID: 2100000, guid: 238fc03554fa3ce448f773cd1163488b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te002Mat
+    second: {fileID: 2100000, guid: 139858c0b1fc056428c40a3053973260, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te003Mat
+    second: {fileID: 2100000, guid: 0dfd410268e6dd748b4584fc4ecf1545, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te004Mat
+    second: {fileID: 2100000, guid: c4b3f3970cf8b764fa2d2f79c58766ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te005Mat
+    second: {fileID: 2100000, guid: 51f81914d087ea449842edf05d69f59d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te006Mat
+    second: {fileID: 2100000, guid: 833d1c6189f11dd4a8e17d5bc0abd09e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te007Mat
+    second: {fileID: 2100000, guid: fd1ed6a7bc30f304eb9558dfdbaff0e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te008Mat
+    second: {fileID: 2100000, guid: c7056fa172556584db4ecbd885f12f34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te009Mat
+    second: {fileID: 2100000, guid: 66ffe24d831baaf44939b58d75cd23a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te010Mat
+    second: {fileID: 2100000, guid: 961ab93735b2e3a419ca64870b2651d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te011Mat
+    second: {fileID: 2100000, guid: 575758f7e1ee3f3429797d76acb1a819, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te012Mat
+    second: {fileID: 2100000, guid: 85a203596d80a374d9859cca4b3a5d7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te013Mat
+    second: {fileID: 2100000, guid: 410e4026502959142b52d661ad65d038, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te014Mat
+    second: {fileID: 2100000, guid: a2572023a9149aa448304fdb87537a41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te015Mat
+    second: {fileID: 2100000, guid: e5d8b847d720d0044b3ceb89a9cd4ff1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te016Mat
+    second: {fileID: 2100000, guid: 39d16c6c30eba6444afc22b54b934a73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te017Mat
+    second: {fileID: 2100000, guid: b492f273ae313494e940053fb93b7d75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te018Mat
+    second: {fileID: 2100000, guid: 4d965c048feb1f84da208b53981542c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te019Mat
+    second: {fileID: 2100000, guid: 65e4bd8b8a4646746a283c73eaa0d5e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te020Mat
+    second: {fileID: 2100000, guid: 21f677fa8367b5546ae9803072765ec8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te021Mat
+    second: {fileID: 2100000, guid: c2a6c048b2da49f42812bdbe76e41ec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te022Mat
+    second: {fileID: 2100000, guid: 78f40472e0cc2ea43b22a41dc1bfa3b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te023Mat
+    second: {fileID: 2100000, guid: 4c193703c8c2788478300d4dee702478, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te024Mat
+    second: {fileID: 2100000, guid: 8e46e5fd0f8d6544f8ad618a514a279e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te025Mat
+    second: {fileID: 2100000, guid: 6c6a7431ddf890a4ea4924e5d8bff89a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te026Mat
+    second: {fileID: 2100000, guid: d69f320930deadf438578d6ab21432b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te027Mat
+    second: {fileID: 2100000, guid: 6acd54f086f625b4eaeb7aa5bd5ed928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te028Mat
+    second: {fileID: 2100000, guid: 74f69d052c7985b4f824f11bc1900004, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te029Mat
+    second: {fileID: 2100000, guid: 40a4099f3d4cc744cbd184ea41a95f71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te030Mat
+    second: {fileID: 2100000, guid: d96d0bd878e03e343b54ccf2f4cc0060, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te032Mat
+    second: {fileID: 2100000, guid: 37d2535cffa21684699e5add783c21a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te033Mat
+    second: {fileID: 2100000, guid: a6c7fc72854758049a0cb10e171cc7cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te034Mat
+    second: {fileID: 2100000, guid: 092e18f376a499d4e817496a637edcbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te035Mat
+    second: {fileID: 2100000, guid: 10f03b917bee26748a869406f54f951f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te036Mat
+    second: {fileID: 2100000, guid: 6bf0d9bef61b32042b120c4f2a2910ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te037Mat
+    second: {fileID: 2100000, guid: d5298803b2960bd4a833be327658745a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bo_te038Mat
+    second: {fileID: 2100000, guid: f3b8b231d4909fa46b9358bc7857cce5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Escalier_droit001Mat
+    second: {fileID: 2100000, guid: 46d23d267798c4e479b596fd7a2fe012, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extrusion001Mat
+    second: {fileID: 2100000, guid: 095ba7a855f8f624990c2bf76a25d394, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extrusion002Mat
+    second: {fileID: 2100000, guid: 81eb075903ab75748b42a97915a1530d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

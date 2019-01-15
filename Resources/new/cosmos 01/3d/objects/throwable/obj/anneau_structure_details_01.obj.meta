@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: cb23ac2fe1d72f143b7ef4b7f931e8f5
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bras_006
+    100004: bras_01_toit
+    100006: bras_01_toit001
+    100008: bras_02_Paroi
+    100010: bras_02_Paroi001
+    100012: bras_02_toit
+    100014: bras_02_toit001
+    100016: bras_03
+    100018: bras_03_toit
+    100020: bras_03_toit001
+    100022: cylindre_002
+    100024: cylindre_01
+    100026: paroi_001
+    100028: paroi_002
+    100030: sol_bras_004
+    100032: sol_bras_005
+    100034: sol_bras_006
+    100036: sol_bras_01
+    100038: sol_bras_02
+    100040: sol_bras_03
+    100042: sol_complet
+    100044: sol_complet001
+    100046: toit_impaire_
+    100048: toit_impaire_001
+    100050: toit_paire_002
+    100052: toit_paire_01
+    100054: Tube001
+    100056: Tube002
+    100058: tube_colonne_centralle
+    100060: tube_colonne_centralle001
+    400000: //RootNode
+    400002: bras_006
+    400004: bras_01_toit
+    400006: bras_01_toit001
+    400008: bras_02_Paroi
+    400010: bras_02_Paroi001
+    400012: bras_02_toit
+    400014: bras_02_toit001
+    400016: bras_03
+    400018: bras_03_toit
+    400020: bras_03_toit001
+    400022: cylindre_002
+    400024: cylindre_01
+    400026: paroi_001
+    400028: paroi_002
+    400030: sol_bras_004
+    400032: sol_bras_005
+    400034: sol_bras_006
+    400036: sol_bras_01
+    400038: sol_bras_02
+    400040: sol_bras_03
+    400042: sol_complet
+    400044: sol_complet001
+    400046: toit_impaire_
+    400048: toit_impaire_001
+    400050: toit_paire_002
+    400052: toit_paire_01
+    400054: Tube001
+    400056: Tube002
+    400058: tube_colonne_centralle
+    400060: tube_colonne_centralle001
+    2300000: bras_006
+    2300002: bras_01_toit
+    2300004: bras_01_toit001
+    2300006: bras_02_Paroi
+    2300008: bras_02_Paroi001
+    2300010: bras_02_toit
+    2300012: bras_02_toit001
+    2300014: bras_03
+    2300016: bras_03_toit
+    2300018: bras_03_toit001
+    2300020: cylindre_002
+    2300022: cylindre_01
+    2300024: paroi_001
+    2300026: paroi_002
+    2300028: sol_bras_004
+    2300030: sol_bras_005
+    2300032: sol_bras_006
+    2300034: sol_bras_01
+    2300036: sol_bras_02
+    2300038: sol_bras_03
+    2300040: sol_complet
+    2300042: sol_complet001
+    2300044: toit_impaire_
+    2300046: toit_impaire_001
+    2300048: toit_paire_002
+    2300050: toit_paire_01
+    2300052: Tube001
+    2300054: Tube002
+    2300056: tube_colonne_centralle
+    2300058: tube_colonne_centralle001
+    3300000: bras_006
+    3300002: bras_01_toit
+    3300004: bras_01_toit001
+    3300006: bras_02_Paroi
+    3300008: bras_02_Paroi001
+    3300010: bras_02_toit
+    3300012: bras_02_toit001
+    3300014: bras_03
+    3300016: bras_03_toit
+    3300018: bras_03_toit001
+    3300020: cylindre_002
+    3300022: cylindre_01
+    3300024: paroi_001
+    3300026: paroi_002
+    3300028: sol_bras_004
+    3300030: sol_bras_005
+    3300032: sol_bras_006
+    3300034: sol_bras_01
+    3300036: sol_bras_02
+    3300038: sol_bras_03
+    3300040: sol_complet
+    3300042: sol_complet001
+    3300044: toit_impaire_
+    3300046: toit_impaire_001
+    3300048: toit_paire_002
+    3300050: toit_paire_01
+    3300052: Tube001
+    3300054: Tube002
+    3300056: tube_colonne_centralle
+    3300058: tube_colonne_centralle001
+    4300000: bras_006
+    4300002: bras_01_toit
+    4300004: bras_01_toit001
+    4300006: bras_02_Paroi
+    4300008: bras_02_Paroi001
+    4300010: bras_02_toit
+    4300012: bras_02_toit001
+    4300014: bras_03
+    4300016: bras_03_toit
+    4300018: bras_03_toit001
+    4300020: cylindre_002
+    4300022: cylindre_01
+    4300024: paroi_001
+    4300026: paroi_002
+    4300028: sol_bras_004
+    4300030: sol_bras_005
+    4300032: sol_bras_006
+    4300034: sol_bras_01
+    4300036: sol_bras_02
+    4300038: sol_bras_03
+    4300040: sol_complet
+    4300042: sol_complet001
+    4300044: toit_impaire_
+    4300046: toit_impaire_001
+    4300048: toit_paire_002
+    4300050: toit_paire_01
+    4300052: Tube001
+    4300054: Tube002
+    4300056: tube_colonne_centralle
+    4300058: tube_colonne_centralle001
+    6400000: bras_006
+    6400002: bras_01_toit
+    6400004: bras_01_toit001
+    6400006: bras_02_Paroi
+    6400008: bras_02_Paroi001
+    6400010: bras_02_toit
+    6400012: bras_02_toit001
+    6400014: bras_03
+    6400016: bras_03_toit
+    6400018: bras_03_toit001
+    6400020: cylindre_002
+    6400022: cylindre_01
+    6400024: paroi_001
+    6400026: paroi_002
+    6400028: sol_bras_004
+    6400030: sol_bras_005
+    6400032: sol_bras_006
+    6400034: sol_bras_01
+    6400036: sol_bras_02
+    6400038: sol_bras_03
+    6400040: sol_complet
+    6400042: sol_complet001
+    6400044: toit_impaire_
+    6400046: toit_impaire_001
+    6400048: toit_paire_002
+    6400050: toit_paire_01
+    6400052: Tube001
+    6400054: Tube002
+    6400056: tube_colonne_centralle
+    6400058: tube_colonne_centralle001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tube001Mat
+    second: {fileID: 2100000, guid: b45e118e1bbe57b43b2b91c0a303341f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tube002Mat
+    second: {fileID: 2100000, guid: 9f6a676d7b0d3a147ae0b1ec7d39a1e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bras_006Mat
+    second: {fileID: 2100000, guid: c077dfb3a54f95b40aba5fa5b042d11c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bras_01_toit001Mat
+    second: {fileID: 2100000, guid: 8a651f0b321b6304797fb3f3a7940862, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bras_01_toitMat
+    second: {fileID: 2100000, guid: c870269a01e8b454487ea798621dd1d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bras_02_Paroi001Mat
+    second: {fileID: 2100000, guid: 6e572de8ee575ac41b03408d84a63d9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bras_02_ParoiMat
+    second: {fileID: 2100000, guid: 9dbd9214e93a1ce4bb7094d924850e75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bras_02_toit001Mat
+    second: {fileID: 2100000, guid: 84c0b4ac2ed52914f97f2b91eb5cf505, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bras_02_toitMat
+    second: {fileID: 2100000, guid: 9f944762e62c7234baa1ebfc8ba7f2cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bras_03Mat
+    second: {fileID: 2100000, guid: 77c85f5c5c77d4b4d84021554126f0a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bras_03_toit001Mat
+    second: {fileID: 2100000, guid: 0d95802e4d008c44baa60b04a9915592, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bras_03_toitMat
+    second: {fileID: 2100000, guid: e9fb8669c3a081d41a512981ec63d296, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cylindre_002Mat
+    second: {fileID: 2100000, guid: 19da3cbf9f4c77e4cae37f9f190918b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cylindre_01Mat
+    second: {fileID: 2100000, guid: 78fe1dac185a44f46bb6e3d64be9f8c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paroi_001Mat
+    second: {fileID: 2100000, guid: 901db19fce9e6ca44b35b2b2886f1947, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paroi_002Mat
+    second: {fileID: 2100000, guid: 0cdf4a8c41644024bb3559ed346b0978, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sol_bras_004Mat
+    second: {fileID: 2100000, guid: 8b98a51374373fc429eb7c20e700702f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sol_bras_005Mat
+    second: {fileID: 2100000, guid: 1adaedfeefcd88e47ba8c0e3378cce13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sol_bras_006Mat
+    second: {fileID: 2100000, guid: 2b69a43f91f2aca4a96709895cdfe021, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sol_bras_01Mat
+    second: {fileID: 2100000, guid: 95897356b6398924dbb4784080e5bf11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sol_bras_02Mat
+    second: {fileID: 2100000, guid: b444aa8384ef00e43bce715a1559b965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sol_bras_03Mat
+    second: {fileID: 2100000, guid: 538242a18455e1e4ebaf056076f2dc48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sol_complet001Mat
+    second: {fileID: 2100000, guid: 704f58a540c9ee94aa6def2b8052e568, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sol_completMat
+    second: {fileID: 2100000, guid: 0dd7f16190d9e0747ab7ca861465a724, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toit_impaire_001Mat
+    second: {fileID: 2100000, guid: 85b8fac2c7578b64f9edfbe6205508de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toit_impaire_Mat
+    second: {fileID: 2100000, guid: c3ac8976d1ae0e24c80473ebdbc9e949, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toit_paire_002Mat
+    second: {fileID: 2100000, guid: 65c2cc4b4572248429d181159627a5c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toit_paire_01Mat
+    second: {fileID: 2100000, guid: 0dc6c640a119aa2409297fd66ee466d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tube_colonne_centralle001Mat
+    second: {fileID: 2100000, guid: d854a3ddf31a4104386685f723db05d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tube_colonne_centralleMat
+    second: {fileID: 2100000, guid: 38dfdc17d5a14d54e96145cd9ed9b490, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
