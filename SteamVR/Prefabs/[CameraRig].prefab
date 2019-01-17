@@ -30,6 +30,7 @@ GameObject:
   - component: {fileID: 54167355142141940}
   - component: {fileID: 135950827420151102}
   - component: {fileID: 114376913071910802}
+  - component: {fileID: 114568577126417816}
   m_Layer: 0
   m_Name: Controller (left)
   m_TagString: Untagged
@@ -1001,6 +1002,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trackedObject: {fileID: 11411726}
   throwSpeed: 2
+--- !u!114 &114568577126417816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf2d8879c6fe752488329c24414be499, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackedObject: {fileID: 11411726}
+  grabDistance: 10
 --- !u!114 &114611066744965864
 MonoBehaviour:
   m_ObjectHideFlags: 1
