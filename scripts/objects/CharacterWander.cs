@@ -9,7 +9,7 @@ public class CharacterWander : MonoBehaviour
 	public float maxHeadingChange = 90;
  
 	CharacterController controller;
-	float heading;
+	float heading = 0;
 	Vector3 targetRotation;
  
 	void Awake ()
