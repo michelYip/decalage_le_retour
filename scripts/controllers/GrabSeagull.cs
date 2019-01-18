@@ -19,8 +19,8 @@ public class GrabSeagull : MonoBehaviour
         device = SteamVR_Controller.Input((int)trackedObject.index);
         if (device.GetPress(SteamVR_Controller.ButtonMask.Trigger))
         {
-            if (Physics.Raycast(transform.position, transform.up, out hit, grabDistance)){
-                Debug.DrawRay(transform.position, transform.up * grabDistance, Color.red);
+            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, grabDistance)){
+                Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * grabDistance, Color.red);
                 if(hit.collider.gameObject.tag == "character")
                 {
                     this.transform.root.gameObject.transform.SetParent(hit.collider.gameObject.transform);
