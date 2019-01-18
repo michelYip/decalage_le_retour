@@ -97,7 +97,7 @@ public class DC_GenerateObjects : MonoBehaviour {
                 break;
 
             case DC_Object.ObjectType.CHARACTER : 
-                GameObject c_o = (GameObject) Instantiate(characters[Random.Range(0, characters.Length)], new Vector3(pos.x, Random.Range(100,300), pos.z), Quaternion.identity);
+                GameObject c_o = (GameObject) Instantiate(characters[Random.Range(0, characters.Length)], new Vector3(pos.x, Random.Range(25,150), pos.z), Quaternion.identity);
 				c_o.gameObject.tag = "character";
 				c_o.gameObject.transform.SetParent(objectParent.transform);
 				if (start) {	
@@ -172,35 +172,49 @@ public class DC_GenerateObjects : MonoBehaviour {
 	}
 
 	void destroyObjects() {
-		foreach(DC_Object o in objects) {
-			switch (o.type) {
+        Vector3 userPos = player.transform.position;
+        float minX, minZ, maxX, maxZ;
+        minX = userPos.x - Attributes.halfTileX * Attributes.planeSize;
+        maxX = userPos.x + Attributes.halfTileX * Attributes.planeSize;
+        minZ = userPos.z - Attributes.halfTileZ * Attributes.planeSize;
+        maxZ = userPos.z + Attributes.halfTileZ * Attributes.planeSize;
 
+        float posX, posZ, posY;
+        foreach (DC_Object o in objects) {
+            posX = Random.Range(minX, maxX);
+            posY = Random.Range(7, 12);
+            posZ = Random.Range(minZ, maxZ);
+            switch (o.type) {
                 case DC_Object.ObjectType.THROWABLE : 
                     if (o.obj!=null && o.obj.transform.position.y < -1) {
                         Destroy(o.obj);
 						objects.Remove(o);
-					}
+                        createObject(false, new Vector3(posX, posY, posZ), DC_Object.ObjectType.THROWABLE);
+                    }
 					break;
 				
 				case DC_Object.ObjectType.ANIMATED : 
                 	if (o.obj!=null && o.obj.transform.position.y < -20){
                         Destroy(o.obj);
 						objects.Remove(o);
-					}
+                        createObject(false, new Vector3(posX, posY, posZ), DC_Object.ObjectType.ANIMATED);
+                    }
                     break;
 				
 				case DC_Object.ObjectType.CHARACTER : 
                 	if (o.obj!=null && Vector3.Distance(o.obj.transform.position, player.transform.position) > 200.0f) {
                         Destroy(o.obj);
 						objects.Remove(o);
-					}
+                        createObject(false, new Vector3(posX, posY, posZ), DC_Object.ObjectType.CHARACTER);
+                    }
                     break;
 				
 				case DC_Object.ObjectType.PANEL : 
                 	if (o.obj!=null && Vector3.Distance(o.obj.transform.position, player.transform.position) > 200.0f) {
                         Destroy(o.obj);
 						objects.Remove(o);
-					}
+                        createObject(false, new Vector3(posX, posY, posZ), DC_Object.ObjectType.CHARACTER);
+                    }
                     break;
                 
 				default: return;
@@ -275,7 +289,7 @@ public class DC_GenerateObjects : MonoBehaviour {
 		destroyFreeObjects();
 		spawnFreeObjects(false);
         destroyObjects();
-        spawnObjects(false);
+        //spawnObjects(false);
     }
 
 

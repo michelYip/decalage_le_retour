@@ -4,8 +4,8 @@ using System.Collections;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterWander : MonoBehaviour
 {
-	public float speed = 5;
-	public float directionChangeInterval = 1;
+	public float speed = 1.5f;
+	public float directionChangeInterval = 0.25f;
 	public float maxHeadingChange = 30;
  
 	CharacterController controller;
@@ -26,7 +26,7 @@ public class CharacterWander : MonoBehaviour
 	{
 		transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, targetRotation, Time.deltaTime * directionChangeInterval);
 		var forward = transform.TransformDirection(Vector3.forward);
-		controller.SimpleMove(forward * speed);
+		controller.Move(forward * speed);
 	}
  
 	IEnumerator NewHeading ()
