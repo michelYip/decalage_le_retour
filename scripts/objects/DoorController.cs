@@ -29,14 +29,13 @@ public class DoorController : MonoBehaviour {
             SceneManager.LoadScene(this.gameObject.tag);
         }
     }
+    //Trigger door animation when user is near or not 
     void OnTriggerEnter(Collider col)
     {
-        //Debug.Log("In");
         animator.SetBool("isNear", true);
     }
     void OnTriggerExit(Collider col)
     {
-        //Debug.Log("Out");
         animator.SetBool("isNear", false);
     }
 }
