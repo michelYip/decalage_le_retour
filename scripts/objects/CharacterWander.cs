@@ -4,12 +4,12 @@ using System.Collections;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterWander : MonoBehaviour
 {
-	public float speed = 1.5f;
-	public float directionChangeInterval = 0.25f;
-	public float maxHeadingChange = 30;
+	public float speed = 0.50f;
+	public float directionChangeInterval = 0.1f;
+	public float maxHeadingChange = 90;
  
 	CharacterController controller;
-	float heading;
+	float heading = 0;
 	Vector3 targetRotation;
  
 	void Awake ()
