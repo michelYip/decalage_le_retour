@@ -1,7 +1,7 @@
 fileFormatVersion: 2
-guid: 0051273aab900144d8e8e6ddf86fe072
+guid: 0ced089b50b651c49ba0bdcf13694982
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     100002: _tage_03
@@ -64,47 +64,47 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Apex_D_meMat
-    second: {fileID: 2100000, guid: b20392238a12b484982e08b32305dcff, type: 2}
+    second: {fileID: 2100000, guid: 2821b52d000192940b221ef838b94e5a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: _tage_03Mat
-    second: {fileID: 2100000, guid: 59032e834ed5d3343b9a0b10433d9b16, type: 2}
+    second: {fileID: 2100000, guid: d1342243ce7e6dd44aee18bb54494e4a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: den_tre_dome_02Mat
-    second: {fileID: 2100000, guid: a2b942c708a0491448c7d1fe5f4df410, type: 2}
+    second: {fileID: 2100000, guid: 10460e28b84d41e42bd4e60dc01de602, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: escalier_01Mat
-    second: {fileID: 2100000, guid: 98f700cc735bc3745bf6403aa9dbcf02, type: 2}
+    second: {fileID: 2100000, guid: b2e5e4d506590a24cb8c6305f9431a6e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: escalier_03Mat
-    second: {fileID: 2100000, guid: e027b200f163aba4bb578892bf89d661, type: 2}
+    second: {fileID: 2100000, guid: 76a1c98a33b3f86459602d5ffd691237, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: escalier_04Mat
-    second: {fileID: 2100000, guid: 4ef4a49bfa8413241a68ffdab713da30, type: 2}
+    second: {fileID: 2100000, guid: 03d1a940ee5847f48bf969dee79735a7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: escalier_2Mat
-    second: {fileID: 2100000, guid: e5a1216e3a373c449860751f18fcbb9b, type: 2}
+    second: {fileID: 2100000, guid: 29284b597a5de0744ab087f13ea87450, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: fen_tre_dome_Mat
-    second: {fileID: 2100000, guid: e032f0e81b3ab4041b3f004eca7bd925, type: 2}
+    second: {fileID: 2100000, guid: a95aa5787a4161c44a53d9de4aa2e345, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: fen_tre_dome_horizontaleMat
-    second: {fileID: 2100000, guid: e4c5dc05217d52b469f4dd7d2ba02c34, type: 2}
+    second: {fileID: 2100000, guid: 8f3a1fa62a527b54e8747f479b700718, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -138,7 +138,6 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
-    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -156,16 +155,11 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -180,6 +174,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
