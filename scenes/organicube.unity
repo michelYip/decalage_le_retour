@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: a1b7cd7dbd4bf4a488a5f9a54a088d69, type: 3}
+  m_SkyboxMaterial: {fileID: 2100000, guid: edbcfbae85a45eb4f9667735d7a853f6, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -438,7 +438,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1195231418, guid: 957efe56c27133f4ab1132a857393c7b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 1195231418, guid: 957efe56c27133f4ab1132a857393c7b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -487,6 +487,14 @@ PrefabInstance:
     - target: {fileID: 1195231418, guid: 957efe56c27133f4ab1132a857393c7b, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 528504370, guid: 957efe56c27133f4ab1132a857393c7b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 528504370, guid: 957efe56c27133f4ab1132a857393c7b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 957efe56c27133f4ab1132a857393c7b, type: 3}
@@ -1360,6 +1368,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1205693250393948, guid: 4b7737c9ebe5da843b194034a4983510, type: 3}
+      propertyPath: m_Name
+      value: cameraOC
+      objectReference: {fileID: 0}
     - target: {fileID: 4988285677436852, guid: 4b7737c9ebe5da843b194034a4983510, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1390,7 +1402,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4988285677436852, guid: 4b7737c9ebe5da843b194034a4983510, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4988285677436852, guid: 4b7737c9ebe5da843b194034a4983510, type: 3}
       propertyPath: m_LocalScale.x
