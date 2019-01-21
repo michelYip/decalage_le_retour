@@ -32,6 +32,7 @@ public class DoorController : MonoBehaviour {
     //Trigger door animation when user is near or not 
     void OnTriggerEnter(Collider col)
     {
+       // Debug.Log(col.gameObject.transform.position);
         animator.SetBool("isNear", true);
     }
     void OnTriggerExit(Collider col)
