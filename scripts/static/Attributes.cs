@@ -6,8 +6,21 @@ using System.Linq;
 using System.IO;
 
 public static class Attributes {
-	
-	// WORLDS AVAILABLE
+
+    // WORLDS / SCENE MANAGER
+
+    private static string destinationName;
+    public static string Destination
+    {
+        get
+        {
+            return destinationName;
+        }
+        set
+        {
+            destinationName = value;
+        }
+    }
 
 	public static string[] worldsList() {
 		
