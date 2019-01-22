@@ -87,9 +87,10 @@ GameObject:
   - component: {fileID: 4173366348487390}
   - component: {fileID: 33839965235312080}
   - component: {fileID: 23401003690564988}
+  - component: {fileID: 1204279603293039767}
   m_Layer: 0
   m_Name: aile_droite_extreme_milieu_
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,6 +154,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1204279603293039767
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621630498111416}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300002, guid: f263ea005479eed4195ae2ec6e199da3, type: 3}
 --- !u!1 &1641055692641616
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,9 +179,10 @@ GameObject:
   - component: {fileID: 4860412743586114}
   - component: {fileID: 33251777531031694}
   - component: {fileID: 23339225881528844}
+  - component: {fileID: 2621688011198667565}
   m_Layer: 0
   m_Name: aile_droite_extreme
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -230,6 +246,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2621688011198667565
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641055692641616}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: f263ea005479eed4195ae2ec6e199da3, type: 3}
 --- !u!1 &1656859651716486
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,9 +271,10 @@ GameObject:
   - component: {fileID: 4722247001433464}
   - component: {fileID: 33387150086470952}
   - component: {fileID: 23582657525612520}
+  - component: {fileID: 881209601092503922}
   m_Layer: 0
   m_Name: aile_gauche_extreme
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -307,6 +338,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &881209601092503922
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656859651716486}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300006, guid: f263ea005479eed4195ae2ec6e199da3, type: 3}
 --- !u!1 &1911011377225258
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,9 +363,10 @@ GameObject:
   - component: {fileID: 4967601600336920}
   - component: {fileID: 33955057073259134}
   - component: {fileID: 23548738389634270}
+  - component: {fileID: 2464151258471919119}
   m_Layer: 0
   m_Name: corps_central
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -384,6 +430,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2464151258471919119
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911011377225258}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300012, guid: f263ea005479eed4195ae2ec6e199da3, type: 3}
 --- !u!1 &1935403653583878
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,9 +455,10 @@ GameObject:
   - component: {fileID: 4962454347697374}
   - component: {fileID: 33922134643620218}
   - component: {fileID: 23139702932576300}
+  - component: {fileID: 2976976808480347939}
   m_Layer: 0
   m_Name: aile_gauche_proche_corps
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -461,6 +522,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2976976808480347939
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935403653583878}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300010, guid: f263ea005479eed4195ae2ec6e199da3, type: 3}
 --- !u!1 &1966416353933848
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,9 +547,10 @@ GameObject:
   - component: {fileID: 4143807015046630}
   - component: {fileID: 33757797998308778}
   - component: {fileID: 23872918184784198}
+  - component: {fileID: 6562289460531697858}
   m_Layer: 0
   m_Name: aile_gauche_extreme_milieu
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -538,6 +614,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6562289460531697858
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966416353933848}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300008, guid: f263ea005479eed4195ae2ec6e199da3, type: 3}
 --- !u!1 &1985237845826588
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,9 +639,10 @@ GameObject:
   - component: {fileID: 4338090056132600}
   - component: {fileID: 33517380423251592}
   - component: {fileID: 23976854458129992}
+  - component: {fileID: 1732710062792678976}
   m_Layer: 0
   m_Name: aile_droite_proche_corps
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -615,3 +706,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1732710062792678976
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985237845826588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: f263ea005479eed4195ae2ec6e199da3, type: 3}

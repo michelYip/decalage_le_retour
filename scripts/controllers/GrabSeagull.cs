@@ -23,14 +23,14 @@ public class GrabSeagull : MonoBehaviour
         {
             ray.SetPosition(0, transform.position + transform.TransformDirection(Vector3.forward) * 0.1f);
             ray.SetPosition(1, transform.position + transform.TransformDirection(Vector3.forward) * grabDistance);
-            if (Physics.Raycast(transform.position, transform.position + transform.TransformDirection(Vector3.forward), out hit, grabDistance)){
+            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, grabDistance)){
                 //Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * grabDistance, Color.red);
                 ray.SetPosition(1, hit.point);
                 if (hit.collider.gameObject.tag == "character")
                 {
                     ray.material.color = Color.green;
                     ray.SetPosition(1, hit.transform.position);
-                    this.transform.root.gameObject.transform.SetParent(hit.collider.gameObject.transform);
+                   // this.transform.root.gameObject.transform.SetParent(hit.collider.gameObject.transform);
                 }
             }
         }

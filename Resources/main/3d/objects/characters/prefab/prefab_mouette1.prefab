@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 4796144984591506}
   - component: {fileID: 33736383661256018}
   - component: {fileID: 23126015276103072}
+  - component: {fileID: 2246015455906909200}
   m_Layer: 0
   m_Name: Loft001
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77,6 +78,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2246015455906909200
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170155072041130}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300002, guid: 2f909a235fdc52243a292147976e69a1, type: 3}
 --- !u!1 &1610139979487310
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,9 +103,10 @@ GameObject:
   - component: {fileID: 4929610084516538}
   - component: {fileID: 33813839314201388}
   - component: {fileID: 23306356218714292}
+  - component: {fileID: 7982613293472144070}
   m_Layer: 0
   m_Name: Loft002
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,6 +170,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7982613293472144070
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610139979487310}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: 2f909a235fdc52243a292147976e69a1, type: 3}
 --- !u!1 &1825870103036410
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,9 +267,10 @@ GameObject:
   - component: {fileID: 4016227882558938}
   - component: {fileID: 33262524808208810}
   - component: {fileID: 23191467434817874}
+  - component: {fileID: 6874800990510398320}
   m_Layer: 0
   m_Name: Ellipse001
-  m_TagString: Untagged
+  m_TagString: character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -303,3 +334,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6874800990510398320
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921492607100642}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 2f909a235fdc52243a292147976e69a1, type: 3}

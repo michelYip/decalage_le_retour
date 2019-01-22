@@ -4,7 +4,7 @@ using System.Collections;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterWander : MonoBehaviour
 {
-	public float speed = 0.50f;
+	public float speed = 0.1f;
 	public float directionChangeInterval = 0.1f;
 	public float maxHeadingChange = 90;
  
