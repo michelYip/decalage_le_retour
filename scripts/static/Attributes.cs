@@ -92,8 +92,8 @@ public static class Attributes {
 	// TERRAIN MANAGER
 
 	public static int planeSize = 10;
-	public static int halfTileX = 20;
-	public static int halfTileZ = 20;
+	public static int halfTileX = 10;
+	public static int halfTileZ = 10;
 	public static int terrainSize = planeSize * (halfTileX + halfTileZ);
 	public static int midTerrainSize = terrainSize / 2;
 	public static int tileTexture = Random.Range(0, mainMaterials.Length);
