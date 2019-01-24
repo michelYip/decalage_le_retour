@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Linq;
+using System.Collections;
 
 class DC_Door {
 
@@ -20,6 +21,8 @@ class DC_Door {
 public class DC_GenerateDoor : MonoBehaviour {
 
     private Vector3 pos;
+
+    private float degresEnRadian, x, z, espacement;
 
     GameObject player;
 	GameObject[] doors;
@@ -40,18 +43,28 @@ public class DC_GenerateDoor : MonoBehaviour {
         pos = Vector3.zero;
 
 		doors = Resources.LoadAll(SceneManager.GetActiveScene().name+"/3d/doors/prefab", typeof(GameObject)).Cast<GameObject>().ToArray();
-		createDoor(doorParent.transform.position);
+
+        //distance between each turn 
+        espacement = 60;
+       
+        for (var degres=0;degres < (360 * 6); degres++)
+        {
+            degresEnRadian = degres * (Mathf.PI / 180);
+            x = espacement * degresEnRadian * Mathf.Cos(degresEnRadian);
+            z = espacement * degresEnRadian * Mathf.Sin(degresEnRadian);
+            // distanc between 2 doors 
+            if((degres % 34) == 0)
+            {
+                createDoor(new Vector3(x, 0, z));
+            }
+        }
     }
 
     void update()
     {
-        for(int i =0; i< doors.Length; i++)
-        {
-            Debug.Log("Door number" + 1);
-        //destroyDoor();
-        }
     }
 
     void destroyDoor(){
+
     }
 }
