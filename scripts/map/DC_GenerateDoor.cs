@@ -42,4 +42,16 @@ public class DC_GenerateDoor : MonoBehaviour {
 		doors = Resources.LoadAll(SceneManager.GetActiveScene().name+"/3d/doors/prefab", typeof(GameObject)).Cast<GameObject>().ToArray();
 		createDoor(doorParent.transform.position);
     }
+
+    void update()
+    {
+        for(int i =0; i< doors.Length; i++)
+        {
+            Debug.Log("Door number" + 1);
+        //destroyDoor();
+        }
+    }
+
+    void destroyDoor(){
+    }
 }

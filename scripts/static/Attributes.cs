@@ -100,7 +100,7 @@ public static class Attributes {
 
 	// OBJECTS MANAGER
 
-	public static int maxObjects = 300;
+	public static int maxObjects = 200;
 
 	// TIMER MANAGER
 

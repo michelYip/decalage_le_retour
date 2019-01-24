@@ -181,12 +181,13 @@ public class DC_GenerateObjects : MonoBehaviour {
 
         float posX, posZ, posY;
         foreach (DC_Object o in objects) {
+            // Cheking obj type and if it's too far we delete it and create a new one 
             posX = Random.Range(minX, maxX);
             posY = Random.Range(7, 12);
             posZ = Random.Range(minZ, maxZ);
             switch (o.type) {
                 case DC_Object.ObjectType.THROWABLE : 
-                    if (o.obj!=null && o.obj.transform.position.y < -1) {
+                    if (o.obj!=null && Vector3.Distance(o.obj.transform.position, player.transform.position) > 50.0f) {
                         Destroy(o.obj);
 						objects.Remove(o);
                         createObject(false, new Vector3(posX, posY, posZ), DC_Object.ObjectType.THROWABLE);
@@ -194,7 +195,7 @@ public class DC_GenerateObjects : MonoBehaviour {
 					break;
 				
 				case DC_Object.ObjectType.ANIMATED : 
-                	if (o.obj!=null && o.obj.transform.position.y < -20){
+                	if (o.obj!=null && Vector3.Distance(o.obj.transform.position, player.transform.position) > 200.0f){
                         Destroy(o.obj);
 						objects.Remove(o);
                         createObject(false, new Vector3(posX, posY, posZ), DC_Object.ObjectType.ANIMATED);

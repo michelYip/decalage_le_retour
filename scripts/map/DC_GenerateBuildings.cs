@@ -51,19 +51,21 @@ public class DC_GenerateBuildings : MonoBehaviour {
 
 			float playerX, playerZ;
 			float buildingX, buildingZ;
-			if (b!=null && Vector3.Distance(b.building.transform.position, player.transform.position) > 700.0f) {
+            //checking building's position 
+			if (b!=null && Vector3.Distance(b.building.transform.position, player.transform.position) > 500.0f) {
 				playerX = player.transform.position.x;
 				playerZ = player.transform.position.z;
 				buildingX = b.building.transform.position.x;
 				buildingZ = b.building.transform.position.z;
 				Destroy(b.building);
 				buildings.Remove(b);
-				if (buildings.Count <= 16) {
+                //if total number of buildings is not enough, create building according to user's position 
+				if (buildings.Count <= 12) {
 					if (playerX < buildingX) {
-						createBuilding(false, new Vector3(buildingX-4*Attributes.terrainSize, 0, buildingZ));
+						createBuilding(false, new Vector3(buildingX-3*Attributes.terrainSize, 0, buildingZ));
 					}
 					else {
-						createBuilding(false, new Vector3(buildingX+4*Attributes.terrainSize, 0, buildingZ));
+						createBuilding(false, new Vector3(buildingX+3*Attributes.terrainSize, 0, buildingZ));
 					}
 					if (playerZ < buildingZ) {
 						createBuilding(false, new Vector3(buildingX, 0, buildingZ-3*Attributes.terrainSize));
