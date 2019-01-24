@@ -7,7 +7,6 @@
 [Bb]uild/
 [Ll]ibrary/
 [Ll]ocal[Cc]ache/
-[Oo]bj/
 [Tt]emp/
 [Uu]nityGenerated/
 [Gg]it[Hh]ub/
@@ -18,7 +17,6 @@ sysinfo.txt
 ###
 # VS/MD solution and project files
 ###
-[Ee]xportedObj/
 .vs/
 *.booproj
 *.csproj
