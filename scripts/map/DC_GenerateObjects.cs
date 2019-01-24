@@ -97,9 +97,9 @@ public class DC_GenerateObjects : MonoBehaviour {
                 break;
 
             case DC_Object.ObjectType.CHARACTER : 
-                GameObject c_o = (GameObject) Instantiate(characters[Random.Range(0, characters.Length)], new Vector3(pos.x, Random.Range(25,150), pos.z), Quaternion.identity);
+                GameObject c_o = (GameObject) Instantiate(characters[Random.Range(0, characters.Length)], new Vector3(pos.x, Random.Range(10,15), pos.z), Quaternion.identity);
 				c_o.gameObject.tag = "character";
-				c_o.gameObject.transform.SetParent(objectParent.transform);
+	    			c_o.gameObject.transform.SetParent(objectParent.transform);
 				if (start) {	
 					c_o.gameObject.AddComponent<randomTextureStart>();
 					c_o.gameObject.GetComponent<randomTextureStart>().enabled = true;
