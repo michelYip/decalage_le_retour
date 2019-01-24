@@ -9,7 +9,6 @@ public class PlayerMotor : MonoBehaviour
     private Vector3 velocity;
     private Vector3 rotation;
     private Vector3 cameraRotation;
-    private float jump;
 
     private Rigidbody rb;
 

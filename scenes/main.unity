@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.20837422, g: 0.20837422, b: 0.20837422, a: 1}
+  m_IndirectSpecularColor: {r: 0.20825139, g: 0.20825139, b: 0.20825139, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -115,6 +115,12 @@ NavMeshSettings:
 --- !u!1 &206908566 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 189822, guid: 4d293c8e162f3874b982baadd71153d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1262699067}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &206908570 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2082592, guid: 4d293c8e162f3874b982baadd71153d2,
     type: 3}
   m_PrefabInstance: {fileID: 1262699067}
   m_PrefabAsset: {fileID: 0}
@@ -536,42 +542,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e145fd6ead07e1a4d82d7c19c3347be0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &774156665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 774156663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62ca2fefc16f51645b4e0247a343cd3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &774156666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 774156663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a44c40516435b3a4d8bbb375d95f5964, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &774156667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 774156663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62ca2fefc16f51645b4e0247a343cd3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &774156677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -584,9 +554,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2731ee6a46f8047beaa8503fdb2f2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  lookSensitivityX: 1
-  lookSensitivityY: 1
+  speed: 15
+  lookSensitivityX: 2
+  lookSensitivityY: 2
 --- !u!114 &774156678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,7 +569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc6c93ff203b5e643be746aef26dce44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 206908570}
 --- !u!4 &1056107486 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 458974, guid: 4d293c8e162f3874b982baadd71153d2,
