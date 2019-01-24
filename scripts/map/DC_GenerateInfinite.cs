@@ -58,7 +58,7 @@ public class DC_GenerateInfinite : MonoBehaviour {
 	void Start () {
 		float updateTime = Time.realtimeSinceStartup;
 		Vector3 pos = Vector3.zero;
-
+        //for statement creating all the tiles on the ground based on user's location 
 		for (int x = -Attributes.halfTileX; x < Attributes.halfTileX; x++) {			
 			for (int z = -Attributes.halfTileZ; z < Attributes.halfTileZ; z++) {
 				pos = new Vector3((x * Attributes.planeSize+startPos.x),
@@ -73,7 +73,7 @@ public class DC_GenerateInfinite : MonoBehaviour {
 		
 		int xMove = (int)(player.transform.position.x - startPos.x);
 		int zMove = (int)(player.transform.position.z - startPos.z);
-
+        //updating all the tiles that needs to be created 
 		if (Mathf.Abs(xMove) >= Attributes.planeSize || Mathf.Abs(zMove) >= Attributes.planeSize) {
 
 			float updateTime = Time.realtimeSinceStartup;

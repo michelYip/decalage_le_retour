@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class DoorController : MonoBehaviour {
 
 	Animator animator;
 	
 	void Start () {
 		animator = GetComponent<Animator>();
-
-
 	}
 	
     void Awake()
@@ -19,20 +18,17 @@ public class DoorController : MonoBehaviour {
         sphereCollider.isTrigger = true;
     }
 
-	void Update () {    
-	}
-
     void OnCollisionEnter(Collision col) {
         if (col.gameObject.CompareTag("User"))
         {
             animator.SetTrigger("Enter");
-            SceneManager.LoadScene(this.gameObject.tag);
+            Attributes.Destination = this.gameObject.tag;
+            SceneManager.LoadScene("tunnel");
         }
     }
     //Trigger door animation when user is near or not 
     void OnTriggerEnter(Collider col)
     {
-       // Debug.Log(col.gameObject.transform.position);
         animator.SetBool("isNear", true);
     }
     void OnTriggerExit(Collider col)

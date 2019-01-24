@@ -6,8 +6,21 @@ using System.Linq;
 using System.IO;
 
 public static class Attributes {
-	
-	// WORLDS AVAILABLE
+
+    // WORLDS / SCENE MANAGER
+
+    private static string destinationName;
+    public static string Destination
+    {
+        get
+        {
+            return destinationName;
+        }
+        set
+        {
+            destinationName = value;
+        }
+    }
 
 	public static string[] worldsList() {
 		
@@ -79,15 +92,15 @@ public static class Attributes {
 	// TERRAIN MANAGER
 
 	public static int planeSize = 10;
-	public static int halfTileX = 20;
-	public static int halfTileZ = 20;
+	public static int halfTileX = 10;
+	public static int halfTileZ = 10;
 	public static int terrainSize = planeSize * (halfTileX + halfTileZ);
 	public static int midTerrainSize = terrainSize / 2;
 	public static int tileTexture = Random.Range(0, mainMaterials.Length);
 
 	// OBJECTS MANAGER
 
-	public static int maxObjects = 300;
+	public static int maxObjects = 200;
 
 	// TIMER MANAGER
 

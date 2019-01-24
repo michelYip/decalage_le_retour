@@ -306,8 +306,8 @@ GameObject:
   - component: {fileID: 136317788190985894}
   - component: {fileID: 114659739221411758}
   - component: {fileID: 114674326281067488}
-  - component: {fileID: 707232749568879906}
-  - component: {fileID: 6779887184380638062}
+  - component: {fileID: 8866424252882045687}
+  - component: {fileID: 847419214117439722}
   m_Layer: 0
   m_Name: '[CameraRig]'
   m_TagString: User
@@ -495,20 +495,7 @@ MonoBehaviour:
   rig2DFallback: {fileID: 146900}
   audioListener: {fileID: 0}
   allowToggleTo2D: 1
---- !u!114 &707232749568879906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc6c93ff203b5e643be746aef26dce44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 0}
---- !u!114 &6779887184380638062
+--- !u!114 &8866424252882045687
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -520,9 +507,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2731ee6a46f8047beaa8503fdb2f2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 15
   lookSensitivityX: 2
   lookSensitivityY: 2
+--- !u!114 &847419214117439722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc6c93ff203b5e643be746aef26dce44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 2082592}
 --- !u!1 &155680
 GameObject:
   m_ObjectHideFlags: 0

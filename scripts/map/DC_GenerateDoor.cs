@@ -19,9 +19,6 @@ class DC_Door {
 
 public class DC_GenerateDoor : MonoBehaviour {
 
-    [SerializeField]
-    bool relativePosition = false;
-
     private Vector3 pos;
 
     GameObject player;
@@ -36,31 +33,25 @@ public class DC_GenerateDoor : MonoBehaviour {
 		d.gameObject.transform.SetParent(doorParent.transform);
         door = new DC_Door(d, d.tag);
 	}
-
-	void destroyDoor() {
-		if (door!=null && Vector3.Distance(door.objDoor.transform.position, player.transform.position) > 400.0f)
-			spawnDoor();
-	}
-
-	void spawnDoor() {
-		door.objDoor.transform.position = new Vector3(player.transform.position.x+20, 0, player.transform.position.z+20);
-	}
   
     void Start() {
 		doorParent = GameObject.FindWithTag("DoorParent");
 		player = GameObject.FindWithTag("User");
-
-        if (relativePosition)
-            pos = player.transform.position;
-        else
-            pos = Vector3.zero;
+        pos = Vector3.zero;
 
 		doors = Resources.LoadAll(SceneManager.GetActiveScene().name+"/3d/doors/prefab", typeof(GameObject)).Cast<GameObject>().ToArray();
-		createDoor(pos);
+		createDoor(doorParent.transform.position);
     }
 
-    void Update() {
-		destroyDoor();
+    void update()
+    {
+        for(int i =0; i< doors.Length; i++)
+        {
+            Debug.Log("Door number" + 1);
+        //destroyDoor();
+        }
     }
 
+    void destroyDoor(){
+    }
 }

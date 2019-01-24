@@ -718,10 +718,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 668717210}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62ca2fefc16f51645b4e0247a343cd3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c2731ee6a46f8047beaa8503fdb2f2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 903853780}
+  speed: 15
+  lookSensitivityX: 2
+  lookSensitivityY: 2
 --- !u!114 &668717213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -731,12 +733,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 668717210}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a44c40516435b3a4d8bbb375d95f5964, type: 3}
+  m_Script: {fileID: 11500000, guid: fc6c93ff203b5e643be746aef26dce44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
-  lookSensitivityX: 2
-  lookSensitivityY: 2
+  cam: {fileID: 903853780}
 --- !u!1 &726321151
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,7 +832,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737283138}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 6, z: 2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2130461398}
@@ -850,7 +850,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ceac16053818d646a4325b471aba52a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  relativePosition: 0
 --- !u!1 &785382664
 GameObject:
   m_ObjectHideFlags: 0
@@ -898,7 +897,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 420908, guid: 4d293c8e162f3874b982baadd71153d2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 900
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 420908, guid: 4d293c8e162f3874b982baadd71153d2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -935,6 +934,21 @@ PrefabInstance:
     - target: {fileID: 420908, guid: 4d293c8e162f3874b982baadd71153d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 54061723470522966, guid: 4d293c8e162f3874b982baadd71153d2,
+        type: 3}
+      propertyPath: m_Drag
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 54061723470522966, guid: 4d293c8e162f3874b982baadd71153d2,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 54061723470522966, guid: 4d293c8e162f3874b982baadd71153d2,
+        type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114634772040967472, guid: 4d293c8e162f3874b982baadd71153d2, type: 3}
