@@ -3,13 +3,13 @@ using UnityEngine;
 
 public class GrabSeagull : MonoBehaviour
 {
-    public SteamVR_TrackedObject trackedObject;
-    public SteamVR_Controller.Device device;
-    public float grabDistance = 20.0f;
-    public float speed = 0.25f;
-    public LineRenderer ray;
-    public GameObject sphere;
-    
+    private SteamVR_TrackedObject trackedObject;
+    private SteamVR_Controller.Device device;
+    private float grabDistance = 20.0f;
+    private float speed = 0.25f;
+    private LineRenderer ray;
+    private GameObject sphere;
+    private float dragDistance = 10.0f;
 
     // Use this for initialization
     void Start()
@@ -19,6 +19,7 @@ public class GrabSeagull : MonoBehaviour
     }
 
     // Update is called once per frame
+    //
     void Update()
     {
         RaycastHit hit;
@@ -30,15 +31,16 @@ public class GrabSeagull : MonoBehaviour
             ray.SetPosition(1, transform.position + transform.TransformDirection(Vector3.forward) * grabDistance);
             if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, grabDistance))
             {
-                sphere.SetActive(true);
                 ray.SetPosition(1, hit.point);
-                drawCollisionPoint();
-                if (hit.collider.gameObject.tag == "character") {
+                DrawCollisionPoint();
+                if (hit.collider.gameObject.tag == "character")
+                {
                     ray.material.color = Color.green;
                     ray.SetPosition(1, hit.transform.position);
-                    drawCollisionPoint();
-                    transform.root.position += transform.TransformDirection(Vector3.forward) * speed;
-                }   
+                    DrawCollisionPoint();
+                    DragBySeagull(hit.transform);
+                }
+                //If grabable
             }
             else
                 sphere.SetActive(false);
@@ -51,10 +53,18 @@ public class GrabSeagull : MonoBehaviour
         }
     }
 
-    void drawCollisionPoint()
+    // Draw a sphere centered to the intersection of the collision between the raycast and a collider
+    void DrawCollisionPoint()
     {
+        sphere.SetActive(true);
         sphere.GetComponent<Renderer>().material.color = ray.material.color;
         sphere.transform.position = ray.GetPosition(1);
     }
+
+    // Make the seagull drag the player behind it
+    void DragBySeagull(Transform seagull)
+    {
+        Vector3 destination = (seagull.TransformDirection(Vector3.back) + seagull.TransformDirection(Vector3.down)) * dragDistance;
+        transform.position += (destination - transform.position) * speed;
+    }
 }
-  
