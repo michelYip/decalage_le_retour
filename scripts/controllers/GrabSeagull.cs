@@ -14,6 +14,9 @@ public class GrabSeagull : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        trackedObject = gameObject.GetComponent<SteamVR_TrackedObject>();
+        ray = gameObject.GetComponent<LineRenderer>();
+        sphere = transform.GetChild(0).gameObject;
         sphere.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
         sphere.SetActive(false);
     }
