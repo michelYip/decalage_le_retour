@@ -7,16 +7,19 @@ public class TransitionTunnel : MonoBehaviour
 {
     GameObject user;
     string destination;
+    public int indice;
 
     void Start()
     {
         user = GameObject.FindWithTag("User");
         destination = Attributes.Destination;
+        indice = -1000;
     }
     
     void Update()
     {
-        if(user.transform.position.y < -300)
+        //Debug.Log(user.transform.position.y);
+        if(user.transform.position.y < indice)
         {
             SceneManager.LoadScene(destination);
         }

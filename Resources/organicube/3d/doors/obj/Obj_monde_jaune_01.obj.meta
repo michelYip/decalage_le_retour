@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aedc749de24078a41b9c58990268123d
+guid: 0c174cf67d540e848aeeb17197178eb2
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -33,17 +33,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 01___Default
-    second: {fileID: 2100000, guid: e7897ec153346d4478771541169abd84, type: 2}
+    second: {fileID: 2100000, guid: af920d358ad0e804b9dcb48bac35049d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 02___Default
-    second: {fileID: 2100000, guid: e3caa53a2cb285c4483dc5d1ad7bb14b, type: 2}
+    second: {fileID: 2100000, guid: a37ed0076153c4549a4ebc83b4b038f1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: wire_088144225
-    second: {fileID: 2100000, guid: 0278ded070f8a074f83882c3d2c0a332, type: 2}
+    second: {fileID: 2100000, guid: 7080702403a4f2f48bd7a9942ca0596b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
