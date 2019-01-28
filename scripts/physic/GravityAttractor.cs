@@ -5,10 +5,29 @@ using UnityEngine;
 public class GravityAttractor : MonoBehaviour
 {
     public float gravity = -12;
+    Vector3 gravityUp;
 
     public void Attract(Transform body)
     {
-        Vector3 gravityUp = (body.position - transform.position).normalized;
+        Transform raycast = body.GetChild(3);
+        RaycastAround raycasts = raycast.GetComponent<RaycastAround>();
+        Vector3 normal = raycasts.ClosestNormal;
+
+        if (normal != Vector3.zero)
+        {
+            while(normal != gravityUp)
+            {
+                body.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
+                if (gravityUp.x < normal.x) gravityUp.x += 0.1f;
+                else gravityUp.x -= 0.1f;
+            }
+            gravityUp = normal.normalized;
+
+        }
+        else
+        {
+            gravityUp = (body.position - transform.position).normalized;
+        }
         Vector3 localUp = body.up;
 
         body.GetComponent<Rigidbody>().AddForce(gravity * gravityUp);
