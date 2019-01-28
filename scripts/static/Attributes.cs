@@ -76,7 +76,7 @@ public static class Attributes {
 	
 	public static GameObject[] mainBuildings = Resources.LoadAll("main/3d/buildings/prefab", typeof(GameObject)).Cast<GameObject>().ToArray();
 	public static GameObject[] jauneBuildings = Resources.LoadAll("jaune/3d/buildings/prefab", typeof(GameObject)).Cast<GameObject>().ToArray();
-	public static GameObject[] tunnelBuildings = Resources.LoadAll("tunnel/3d/buildings/prefab", typeof(GameObject)).Cast<GameObject>().ToArray();
+	public static GameObject[] tunnelBuildings = Resources.LoadAll("tunnel/3d/buildings/prefab/prefab", typeof(GameObject)).Cast<GameObject>().ToArray();
 	
 	public static GameObject[] getBuildingsFromScene(string scene) {
 		switch (scene) {
