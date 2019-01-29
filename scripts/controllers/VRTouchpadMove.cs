@@ -28,6 +28,9 @@ public class VRTouchpadMove : MonoBehaviour
 
     private Vector2 axis = Vector2.zero;
 
+    //Added Attributes
+    public float speed = 1;
+
     void Start()
     {
         trackedObj = GetComponent<SteamVR_TrackedObject>();
@@ -48,7 +51,7 @@ public class VRTouchpadMove : MonoBehaviour
             axis = device.GetAxis(Valve.VR.EVRButtonId.k_EButton_Axis0);
             if (rig != null)
             {
-                rig.position += ((transform.right * axis.x + transform.forward * axis.y) *(Time.deltaTime+0.1f));
+                rig.position += ((transform.right * axis.x + transform.forward * axis.y) * speed * (Time.deltaTime+0.1f));
             }
         }
 
