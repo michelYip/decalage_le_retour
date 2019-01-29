@@ -28,17 +28,6 @@ public class DC_GenerateTunnelBuildings : MonoBehaviour
         GameObject b = (GameObject)Instantiate(buildingsPrefabs[Random.Range(0, buildingsPrefabs.Length)]);
         DC_tunnelsBuildings newBuilding = new DC_tunnelsBuildings(b);
         Transform[] allChildren = newBuilding.building.GetComponentsInChildren<Transform>();
-        for (int j = 0; j < 2; j++)
-        {
-            Debug.Log("là");
-            if (start)
-            {
-                allChildren[j].gameObject.AddComponent<randomTextureStart>();
-                allChildren[j].gameObject.GetComponent<randomTextureStart>().enabled = true;
-                allChildren[j].gameObject.AddComponent<movingTexture>();
-                allChildren[j].gameObject.GetComponent<movingTexture>().enabled = newBuilding.moving ? true : false;
-            }
-        }
         buildings.Add(newBuilding);
     }
 
