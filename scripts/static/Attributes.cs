@@ -91,7 +91,7 @@ public static class Attributes {
 	
 	// TERRAIN MANAGER
 
-	public static int planeSize = 10;
+	public static int planeSize = 5;
 	public static int halfTileX = 20;
 	public static int halfTileZ = 20;
 	public static int terrainSize = planeSize * (halfTileX + halfTileZ);

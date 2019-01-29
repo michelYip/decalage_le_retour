@@ -19,8 +19,8 @@ public class randomSkyboxTexture : MonoBehaviour {
 	
 	void Update () {
 		frame++;
-		if (frame == timer) {
+		//if (frame == timer) {
 			RenderSettings.skybox = skyboxMats[indexSkybox];
-		}
+		//}
 	}
 }
