@@ -5,7 +5,7 @@ using UnityEngine;
 public class GravityAttractor : MonoBehaviour
 {
     public float gravity = -12;
-    Vector3 gravityUp;
+    Vector3 gravityUp, localUp;
 
     public void Attract(Transform body)
     {
@@ -15,24 +15,18 @@ public class GravityAttractor : MonoBehaviour
 
         if (normal != Vector3.zero)
         {
-            while(normal != gravityUp)
-            {
-                body.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
-                if (gravityUp.x < normal.x) gravityUp.x += 0.1f;
-                else gravityUp.x -= 0.1f;
-            }
+            localUp = gravityUp;
             gravityUp = normal.normalized;
-
         }
         else
         {
             gravityUp = (body.position - transform.position).normalized;
+            localUp = body.up;
         }
-        Vector3 localUp = body.up;
 
         body.GetComponent<Rigidbody>().AddForce(gravity * gravityUp);
 
         Quaternion targetRotation = Quaternion.FromToRotation(localUp, gravityUp) * body.rotation;
-        body.rotation = Quaternion.Slerp(body.rotation, targetRotation, 50f * Time.deltaTime);
+        body.rotation = Quaternion.Slerp(body.rotation, targetRotation, Time.deltaTime);
     }
 }
