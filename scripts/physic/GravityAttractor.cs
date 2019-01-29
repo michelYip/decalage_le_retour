@@ -1,11 +1,11 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GravityAttractor : MonoBehaviour
 {
     public float gravity = -12;
-    Vector3 gravityUp, localUp;
+    Vector3 gravityUp;
 
     public void Attract(Transform body)
     {
@@ -15,17 +15,16 @@ public class GravityAttractor : MonoBehaviour
 
         if (normal != Vector3.zero)
         {
-            localUp = gravityUp;
             gravityUp = normal.normalized;
         }
         else
         {
             gravityUp = (body.position - transform.position).normalized;
-            localUp = body.up;
         }
 
         body.GetComponent<Rigidbody>().AddForce(gravity * gravityUp);
 
+        Vector3 localUp = body.up;
         Quaternion targetRotation = Quaternion.FromToRotation(localUp, gravityUp) * body.rotation;
         body.rotation = Quaternion.Slerp(body.rotation, targetRotation, Time.deltaTime);
     }
