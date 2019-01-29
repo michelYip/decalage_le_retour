@@ -1,13 +1,18 @@
 ﻿using System.Collections;
 using UnityEngine;
 
+/* This class allows the use of the trigger button to shoot a raycast in front of the controller */
+/* Different behavior are expected depending on the collided object */
+/* @uthor : Michel Yip */
+
 public class RaycastController : MonoBehaviour
 {
     private SteamVR_TrackedObject trackedObject;
     private SteamVR_Controller.Device device;
-    private float grabDistance = 20.0f;
-    private float speed = 5f;
-    private float throwSpeed = 2.0f;
+    private float grabDistanceMin = 0.5f;
+    private float grabDistanceMax = 20.0f;
+    private float translationSpeed = 0.1f;
+    private float throwSpeed = 5.0f;
     private LineRenderer ray;
     private GameObject sphere;
     private GameObject target;
@@ -30,43 +35,47 @@ public class RaycastController : MonoBehaviour
         device = SteamVR_Controller.Input((int)trackedObject.index);
         ray.material.color = Color.red;
 
-        if (target != null && target.tag == "Throwable" && device.GetPressUp(SteamVR_Controller.ButtonMask.Trigger))
+        if (target != null && target.tag == "Throwable" && device.GetPressUp(SteamVR_Controller.ButtonMask.Trigger)) // If the player release the left trigger while holding a throwable object
         {
             target.gameObject.GetComponent<Rigidbody>().isKinematic = false;
             target.transform.SetParent(null);
             ThrowObject(target.GetComponent<Rigidbody>());
             target = null;
         }
-        if (device.GetPress(SteamVR_Controller.ButtonMask.Trigger))
+        if (device.GetPress(SteamVR_Controller.ButtonMask.Trigger)) // If the player hold the left trigger
         {
-            if (target != null && target.tag == "character")
+            if (target != null) // If the raycast collide with an interactable object
             {
-                transform.root.position = target.transform.position + Vector3.up * 3;
-                sphere.SetActive(false);
+                switch(target.tag)
+                {
+                    case "character":
+                        GoToSeagull();
+                        break;
+                    case "Throwable":
+                        GrabObject();
+                        if (device.GetTouch(SteamVR_Controller.ButtonMask.Touchpad))
+                        {
+                            float length = (target.transform.position - transform.position).magnitude;
+                            if (length > grabDistanceMin || length < grabDistanceMax)
+                            {
+                                Vector2 translate = device.GetAxis(Valve.VR.EVRButtonId.k_EButton_Axis0);
+                                TranslateObject(translate);
+                            }
+                        }
+                        break;
+                    default:
+                        break;
+                }
             }
-            else if (target != null && target.tag == "Throwable")
+            else // The raycast does not collide with an interactable
             {
-                ray.material.color = Color.green;
-                ray.SetPosition(0, transform.position);
-                ray.SetPosition(1, target.transform.position);
-                DrawCollisionPoint();
-                target.gameObject.GetComponent<Rigidbody>().isKinematic = true;
-                target.transform.SetParent(transform);
-            }
-            else
-            {
-                ray.SetPosition(0, transform.position + transform.TransformDirection(Vector3.forward) * 0.1f);
-                ray.SetPosition(1, transform.position + transform.TransformDirection(Vector3.forward) * grabDistance);
-                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, grabDistance))
+                ray.SetPosition(0, transform.position + transform.TransformDirection(Vector3.forward) * grabDistanceMin);
+                ray.SetPosition(1, transform.position + transform.TransformDirection(Vector3.forward) * grabDistanceMax);
+                if (Physics.Raycast(transform.position + transform.TransformDirection(Vector3.forward) * grabDistanceMin , transform.TransformDirection(Vector3.forward), out hit, grabDistanceMax - grabDistanceMin))
                 {
                     ray.SetPosition(1, hit.point);
                     DrawCollisionPoint();
-                    if (hit.collider.gameObject.tag == "character")
-                    {
-                        target = hit.collider.gameObject;
-                    }
-                    //If grabable
-                    if (hit.collider.gameObject.tag == "Throwable")
+                    if (hit.collider.gameObject.tag == "Throwable" || hit.collider.gameObject.tag == "character")
                     {
                         target = hit.collider.gameObject;
                     }
@@ -77,7 +86,6 @@ public class RaycastController : MonoBehaviour
                     target = null;
                 }
             }
-            
         }
         else
         {
@@ -96,10 +104,34 @@ public class RaycastController : MonoBehaviour
         sphere.transform.position = ray.GetPosition(1);
     }
 
-    //Throw an object 
+    // Move a throwable object along the raycast
+    public void TranslateObject(Vector2 translate)
+    {
+        target.transform.position += (target.transform.position - transform.position) * translate.y * translationSpeed;
+    }
+
+    // Throw an object 
     public void ThrowObject(Rigidbody rigidBody)
     {
         rigidBody.velocity = device.velocity * throwSpeed;
-        rigidBody.angularVelocity = device.angularVelocity;
+        rigidBody.angularVelocity = device.angularVelocity * throwSpeed;
+    }
+
+    // Teleport the player position on top of the Seagull
+    public void GoToSeagull()
+    {
+        transform.root.position = target.transform.position + Vector3.up * 3;
+        sphere.SetActive(false);
+    }
+
+    // Grab a throwable object with the raycast
+    public void GrabObject()
+    {
+        ray.material.color = Color.green;
+        ray.SetPosition(0, transform.position + transform.TransformDirection(Vector3.forward) * grabDistanceMin);
+        ray.SetPosition(1, target.transform.position);
+        DrawCollisionPoint();
+        target.gameObject.GetComponent<Rigidbody>().isKinematic = true;
+        target.transform.SetParent(transform);
     }
 }
