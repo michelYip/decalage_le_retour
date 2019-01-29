@@ -44,20 +44,29 @@ public class DC_GenerateDoor : MonoBehaviour {
 
 		doors = Resources.LoadAll(SceneManager.GetActiveScene().name+"/3d/doors/prefab", typeof(GameObject)).Cast<GameObject>().ToArray();
 
-        //distance between each turn 
-        espacement = 60;
-       
-        for (var degres=0;degres < (360 * 6); degres++)
+        if (SceneManager.GetActiveScene().name == "main")
         {
-            degresEnRadian = degres * (Mathf.PI / 180);
-            x = espacement * degresEnRadian * Mathf.Cos(degresEnRadian);
-            z = espacement * degresEnRadian * Mathf.Sin(degresEnRadian);
-            // distanc between 2 doors 
-            if((degres % 34) == 0)
+            //distance between each turn
+            espacement = 60;
+
+            for (var degres = 0; degres < (360 * 6); degres++)
             {
-                createDoor(new Vector3(x, 0, z));
+                degresEnRadian = degres * (Mathf.PI / 180);
+                x = espacement * degresEnRadian * Mathf.Cos(degresEnRadian);
+                z = espacement * degresEnRadian * Mathf.Sin(degresEnRadian);
+                // distanc between 2 doors 
+                if ((degres % 34) == 0)
+                {
+                    createDoor(new Vector3(x, 0, z));
+                }
             }
         }
+        else
+        {
+            createDoor(doorParent.transform.position);
+        }
+
+        
     }
 
     void update()

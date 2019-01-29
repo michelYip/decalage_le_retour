@@ -76,7 +76,7 @@ public static class Attributes {
 	
 	public static GameObject[] mainBuildings = Resources.LoadAll("main/3d/buildings/prefab", typeof(GameObject)).Cast<GameObject>().ToArray();
 	public static GameObject[] jauneBuildings = Resources.LoadAll("jaune/3d/buildings/prefab", typeof(GameObject)).Cast<GameObject>().ToArray();
-	public static GameObject[] tunnelBuildings = Resources.LoadAll("tunnel/3d/buildings/prefab", typeof(GameObject)).Cast<GameObject>().ToArray();
+	public static GameObject[] tunnelBuildings = Resources.LoadAll("tunnel/3d/buildings/prefab/prefab", typeof(GameObject)).Cast<GameObject>().ToArray();
 	
 	public static GameObject[] getBuildingsFromScene(string scene) {
 		switch (scene) {
@@ -92,8 +92,8 @@ public static class Attributes {
 	// TERRAIN MANAGER
 
 	public static int planeSize = 10;
-	public static int halfTileX = 10;
-	public static int halfTileZ = 10;
+	public static int halfTileX = 20;
+	public static int halfTileZ = 20;
 	public static int terrainSize = planeSize * (halfTileX + halfTileZ);
 	public static int midTerrainSize = terrainSize / 2;
 	public static int tileTexture = Random.Range(0, mainMaterials.Length);
