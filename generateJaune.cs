@@ -14,9 +14,7 @@ public class generateJaune : MonoBehaviour {
 		j.tag = "planet";
 		j.gameObject.transform.SetParent(gameObject.transform);
 		Transform[] allChildren = j.GetComponentsInChildren<Transform> ();
-		for (int i = 0; i < allChildren.Length; i++) {
-			allChildren[i].gameObject.AddComponent<randomTexture>();
-			allChildren[i].gameObject.GetComponent<randomTexture>().enabled = true;	
+		for (int i = 0; i < allChildren.Length; i++) {	
 			allChildren[i].gameObject.AddComponent<movingTexture>();
 			allChildren[i].gameObject.GetComponent<movingTexture>().enabled = (Random.Range(1,3)==1)?true:false;
 		}
