@@ -46,25 +46,13 @@ public class VRTouchpadMove : MonoBehaviour
 
         var device = SteamVR_Controller.Input((int)trackedObj.index);
 
-        if (controller.GetPress(touchpad)) {
-
-            axis = device.GetAxis(Valve.VR.EVRButtonId.k_EButton_Axis0);
-            if (rig != null)
-            {
-                rig.position += ((transform.right * axis.x + transform.forward * axis.y) * speed * (Time.deltaTime+0.1f));
-            }
-        }
-
         if (controller.GetTouch(touchpad))
         {
             axis = device.GetAxis(Valve.VR.EVRButtonId.k_EButton_Axis0);
 
             if (rig != null)
             {
-                float posY = rig.position.y;
-                rig.position += ((transform.right * axis.x + transform.forward * axis.y) *(Time.deltaTime+0.1f));
-                Vector3 newPos = new Vector3(rig.position.x, posY, rig.position.z);
-                rig.position = newPos;
+                rig.position += ((transform.right * axis.x + transform.forward * axis.y) * speed * (Time.deltaTime + 0.1f));
             }
         }
 
