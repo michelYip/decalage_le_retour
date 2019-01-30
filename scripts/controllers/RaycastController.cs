@@ -9,8 +9,8 @@ public class RaycastController : MonoBehaviour
 {
     private SteamVR_TrackedObject trackedObject;
     private SteamVR_Controller.Device device;
-    private float grabDistanceMin = 0.5f;
-    private float grabDistanceMax = 20.0f;
+    private float grabDistanceMin = 1f;
+    private float grabDistanceMax = 10.0f;
     private float translationSpeed = 0.1f;
     private float throwSpeed = 5.0f;
     private LineRenderer ray;
@@ -55,8 +55,8 @@ public class RaycastController : MonoBehaviour
                         GrabObject();
                         if (device.GetTouch(SteamVR_Controller.ButtonMask.Touchpad))
                         {
-                            float length = (target.transform.position - transform.position).magnitude;
-                            if (length > grabDistanceMin || length < grabDistanceMax)
+                            float length = Vector3.Distance(target.transform.position,transform.position);
+                            if (length >= grabDistanceMin && length <= grabDistanceMax)
                             {
                                 Vector2 translate = device.GetAxis(Valve.VR.EVRButtonId.k_EButton_Axis0);
                                 TranslateObject(translate);
@@ -67,7 +67,7 @@ public class RaycastController : MonoBehaviour
                         break;
                 }
             }
-            else // The raycast does not collide with an interactable
+            else // Throw a raycast in front of the controller
             {
                 ray.SetPosition(0, transform.position + transform.TransformDirection(Vector3.forward) * grabDistanceMin);
                 ray.SetPosition(1, transform.position + transform.TransformDirection(Vector3.forward) * grabDistanceMax);
@@ -78,6 +78,10 @@ public class RaycastController : MonoBehaviour
                     if (hit.collider.gameObject.tag == "Throwable" || hit.collider.gameObject.tag == "character")
                     {
                         target = hit.collider.gameObject;
+                        if (hit.collider.gameObject.tag == "Throwable") // Reset the object position if it's a Throwable
+                        {
+                            target.transform.position = hit.point;
+                        }
                     }
                 }
                 else
@@ -107,7 +111,10 @@ public class RaycastController : MonoBehaviour
     // Move a throwable object along the raycast
     public void TranslateObject(Vector2 translate)
     {
-        target.transform.position += (target.transform.position - transform.position) * translate.y * translationSpeed;
+        Vector3 result = target.transform.position + (target.transform.position - transform.position) * translate.y * translationSpeed;
+        target.transform.position = (Vector3.Distance(transform.position, result) < grabDistanceMin) ? target.transform.position :
+                                    (Vector3.Distance(transform.position, result) > grabDistanceMax) ? target.transform.position :
+                                    result;
     }
 
     // Throw an object 
