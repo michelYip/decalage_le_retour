@@ -60,6 +60,9 @@ public class DC_GenerateDoor : MonoBehaviour {
                     createDoor(new Vector3(x, 0, z));
                 }
             }
+        }else if(SceneManager.GetActiveScene().name == "jaune")
+        {
+            createDoor(new Vector3(172, 425, 268));
         }
         else
         {
