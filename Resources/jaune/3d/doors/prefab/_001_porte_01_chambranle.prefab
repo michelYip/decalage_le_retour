@@ -370,7 +370,7 @@ GameObject:
   - component: {fileID: 7085557411646406272}
   m_Layer: 0
   m_Name: _001_porte_01_chambranle
-  m_TagString: Untagged
+  m_TagString: organicube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

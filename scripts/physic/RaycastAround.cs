@@ -9,6 +9,7 @@ class Raycast
     // _distance value must be >= to _lenght value. Otherwise a no collision can be spotted as a collision (distance = 0)
     private float _length = 50;
     private float _distance = 50;
+    private string _name = "";
     private RaycastHit _hit;
     private Vector3 _normal = Vector3.zero;
 
@@ -24,6 +25,7 @@ class Raycast
         {
             _distance = _hit.distance;
             _normal = _hit.normal;
+            _name = _hit.collider.gameObject.name;
         }
         // else, takes the default values
     }
@@ -39,6 +41,13 @@ class Raycast
         get
         {
             return _normal;
+        }
+    }
+    public string Name
+    {
+        get
+        {
+            return _name;
         }
     }
 }
@@ -78,6 +87,7 @@ public class RaycastAround : MonoBehaviour
                     index = i;
                 }
             }
+            Debug.Log("name " + raycasts[index].Name);
             return raycasts[index].Normal;
         }
     }
