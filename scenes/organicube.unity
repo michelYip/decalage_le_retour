@@ -1243,6 +1243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prefab_toTunnel
       objectReference: {fileID: 0}
+    - target: {fileID: 1680824164606324, guid: 6dd76b87d14ce8f43b03f4ab1212554c, type: 3}
+      propertyPath: m_TagString
+      value: organicube
+      objectReference: {fileID: 0}
     - target: {fileID: 4411224354257912, guid: 6dd76b87d14ce8f43b03f4ab1212554c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 186.2
