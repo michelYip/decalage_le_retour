@@ -38,4 +38,14 @@ public class PlayerController : MonoBehaviour
         Vector3 _cameraRotation = new Vector3(_xRot, 0, 0) * lookSensitivityY;
         motor.RotateCamera(_cameraRotation);
     }
+
+    void FixedUpdate()
+    {
+        if (Input.GetButtonDown("Jump"))
+        {
+            Rigidbody rb = this.transform.GetComponent<Rigidbody>();
+            rb.velocity = transform.up * 10;
+        }
+
+    }
 }
