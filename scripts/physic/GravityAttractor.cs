@@ -13,6 +13,8 @@ public class GravityAttractor : MonoBehaviour
         RaycastAround raycasts = raycast.GetComponent<RaycastAround>();
         Vector3 normal = raycasts.ClosestNormal;
 
+        Debug.DrawRay(body.position, normal, Color.red);
+
         if (normal != Vector3.zero)
         {
             gravityUp = normal.normalized;
