@@ -1879,6 +1879,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 636955143312280934, guid: 4d293c8e162f3874b982baadd71153d2,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1914371683}
+    - target: {fileID: 8866424252882045687, guid: 4d293c8e162f3874b982baadd71153d2,
+        type: 3}
+      propertyPath: speed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 581442010773066845, guid: 4d293c8e162f3874b982baadd71153d2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250554391505879696, guid: 4d293c8e162f3874b982baadd71153d2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 54061723470522966, guid: 4d293c8e162f3874b982baadd71153d2,
         type: 3}
       propertyPath: m_Drag
@@ -1894,22 +1914,18 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 636955143312280934, guid: 4d293c8e162f3874b982baadd71153d2,
+    - target: {fileID: 4947669026332024368, guid: 4d293c8e162f3874b982baadd71153d2,
         type: 3}
-      propertyPath: cam
-      value: 
-      objectReference: {fileID: 1914371683}
-    - target: {fileID: 8866424252882045687, guid: 4d293c8e162f3874b982baadd71153d2,
-        type: 3}
-      propertyPath: speed
-      value: 50
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114018406116400544, guid: 4d293c8e162f3874b982baadd71153d2,
         type: 3}
       propertyPath: speed
       value: 10
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 54167355142141940, guid: 4d293c8e162f3874b982baadd71153d2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4d293c8e162f3874b982baadd71153d2, type: 3}
 --- !u!20 &1914371683 stripped
 Camera:

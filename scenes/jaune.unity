@@ -2396,6 +2396,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: organicube
       objectReference: {fileID: 0}
+    - target: {fileID: 4115752747828597683, guid: f2bb8f66b899dbf4ab9a7552629b3c17,
+        type: 3}
+      propertyPath: m_TagString
+      value: organicube
+      objectReference: {fileID: 0}
     - target: {fileID: 12883949231916318, guid: f2bb8f66b899dbf4ab9a7552629b3c17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2479,12 +2484,17 @@ PrefabInstance:
     - target: {fileID: 7085557411646406272, guid: f2bb8f66b899dbf4ab9a7552629b3c17,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8093307295306442300, guid: f2bb8f66b899dbf4ab9a7552629b3c17,
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6192460443852620443, guid: f2bb8f66b899dbf4ab9a7552629b3c17,
+        type: 3}
+      propertyPath: m_TagString
+      value: organicube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2bb8f66b899dbf4ab9a7552629b3c17, type: 3}

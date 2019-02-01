@@ -1,3 +1,4 @@
+#if (UNITY_EDITOR)
 using UnityEngine;
 using UnityEditor;
 using System.Collections;
@@ -70,3 +71,5 @@ public class BuildSceneProcessor : UnityEditor.AssetModificationProcessor
         }
     }
 }
+
+#endif
