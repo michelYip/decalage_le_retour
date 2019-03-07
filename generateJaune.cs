@@ -8,7 +8,8 @@ public class generateJaune : MonoBehaviour {
 
 	GameObject[] buildings;
 
-	void Start () {
+	void Start () { 
+        //Generate many buildings and for each add random texture and moving texture
 		buildings = Attributes.getBuildingsFromScene(SceneManager.GetActiveScene().name);
 		GameObject j = (GameObject) Instantiate(buildings[Random.Range(0,buildings.Length)], new Vector3(0,0,0), Quaternion.identity);
 		j.tag = "planet";
@@ -18,7 +19,7 @@ public class generateJaune : MonoBehaviour {
 			allChildren[i].gameObject.AddComponent<randomTexture>();
 			allChildren[i].gameObject.GetComponent<randomTexture>().enabled = true;	
 			allChildren[i].gameObject.AddComponent<movingTexture>();
-			allChildren[i].gameObject.GetComponent<movingTexture>().enabled = (Random.Range(1,3)==1)?true:false;
+            allChildren[i].gameObject.GetComponent<movingTexture>().enabled = true; //(Random.Range(1,3)==1)?true:false;
 		}
 	}
 }

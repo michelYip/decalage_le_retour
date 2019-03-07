@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class movingTexture : MonoBehaviour {
-	public float scrollSpeed = 0.5f;
+	public float scrollSpeed = 0.4f;
 	private Renderer rend;
 	void Start() {
 		rend = GetComponent<Renderer>();
