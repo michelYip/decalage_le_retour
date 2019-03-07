@@ -25,7 +25,7 @@ public class GravityAttractor : MonoBehaviour
             Debug.Log("center");
         }*/
         
-        Debug.Log("gravity Up " + gravityUp);
+        //Debug.Log("gravity Up " + gravityUp);
         body.GetComponent<Rigidbody>().AddForce(gravity * gravityUp);
 
         Vector3 localUp = body.up;
