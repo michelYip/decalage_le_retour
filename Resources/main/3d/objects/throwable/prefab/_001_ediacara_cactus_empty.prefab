@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 3529474821280989405}
   - component: {fileID: 1950143098388335959}
   - component: {fileID: 5237792054569193968}
+  - component: {fileID: 1858489883061096968}
   m_Layer: 0
   m_Name: _001_ediacara_cactus_empty
   m_TagString: Throwable
@@ -140,3 +141,26 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1858489883061096968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5576276583323757914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f45836d1844e740b53285aef401acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

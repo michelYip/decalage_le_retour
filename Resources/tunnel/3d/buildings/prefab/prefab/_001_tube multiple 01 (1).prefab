@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6787657036517430935}
   - component: {fileID: 4121759998121811182}
   - component: {fileID: 1325635380980845613}
+  - component: {fileID: 3202558888649629804}
   m_Layer: 0
   m_Name: _001_tube multiple 01 (1)
   m_TagString: tunnel
@@ -112,6 +113,29 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &3202558888649629804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454324945665946923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f45836d1844e740b53285aef401acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &902145197309325095
 GameObject:
   m_ObjectHideFlags: 0

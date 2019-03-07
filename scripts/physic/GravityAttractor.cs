@@ -15,15 +15,15 @@ public class GravityAttractor : MonoBehaviour
 
         Debug.DrawRay(body.position, normal, Color.red);
 
-        /*if (normal != Vector3.zero)
-        {*/
+        if (normal != Vector3.zero)
+        {
             gravityUp = normal.normalized;
- /*       }
+        }
         else
         {
             gravityUp = (body.position - transform.position).normalized;
             Debug.Log("center");
-        }*/
+        }
         
         //Debug.Log("gravity Up " + gravityUp);
         body.GetComponent<Rigidbody>().AddForce(gravity * gravityUp);

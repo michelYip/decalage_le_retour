@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4799090540253532011}
   - component: {fileID: 2221306795572516355}
   - component: {fileID: 5019648308782586182}
+  - component: {fileID: 8016914871362597803}
   m_Layer: 0
   m_Name: _001_tube multiple voie
   m_TagString: tunnel
@@ -112,6 +113,29 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &8016914871362597803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037057905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f45836d1844e740b53285aef401acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1814446257
 GameObject:
   m_ObjectHideFlags: 0

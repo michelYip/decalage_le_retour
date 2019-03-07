@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 7780444746694341423}
   - component: {fileID: 2555240626254041576}
   - component: {fileID: 4762483871041058411}
-  - component: {fileID: 5633260863036823346}
   - component: {fileID: 8362067964586618020}
   m_Layer: 0
   m_Name: default
@@ -84,18 +83,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indice: -500
---- !u!114 &5633260863036823346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6626711477692389338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cf85e1b8e0828b4288bb7b3945c875b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &8362067964586618020
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -146,6 +133,7 @@ GameObject:
   - component: {fileID: 9012904662171763507}
   - component: {fileID: 3387697096128937980}
   - component: {fileID: 4484449468077100740}
+  - component: {fileID: 47486695247853687}
   m_Layer: 0
   m_Name: _001_tube 03
   m_TagString: tunnel
@@ -245,3 +233,26 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &47486695247853687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948287080295713794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f45836d1844e740b53285aef401acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

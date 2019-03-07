@@ -52,8 +52,8 @@ public class DC_GenerateObjects : MonoBehaviour {
 				th_o.gameObject.tag = "Throwable";
 				th_o.gameObject.transform.SetParent(objectParent.transform);
 				if (start) {	
-					th_o.gameObject.AddComponent<randomTextureStart>();
-					th_o.gameObject.GetComponent<randomTextureStart>().enabled = true;
+					th_o.gameObject.AddComponent<randomTexture>();
+					th_o.gameObject.GetComponent<randomTexture>().enabled = true;
 				}
 				else {
 					th_o.gameObject.AddComponent<randomTexture>();
